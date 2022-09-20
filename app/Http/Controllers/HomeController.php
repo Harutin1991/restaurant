@@ -26,10 +26,40 @@ class HomeController extends Controller
         //return view('home');
         return view('home.index');
     }
-	
+
 	public function about()
     {
         //return view('home');
         return view('home.about');
+    }
+    public function blog()
+    {
+        //return view('home');
+        return view('home.blog');
+    }
+    public function contact()
+    {
+        //return view('home');
+        return view('home.contact');
+    }
+    public function elements()
+    {
+        //return view('home');
+        return view('home.elements');
+    }
+    public function foodMenu()
+    {
+        //return view('home');
+        return view('home.food_menu');
+    }
+    public function menu()
+    {
+        //return view('home');
+        return view('home.menu');
+    }
+    public function singleBlog()
+    {
+        //return view('home');
+        return view('home.single_blog');
     }
 }

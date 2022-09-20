@@ -19,6 +19,12 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('site');
-Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('site');
+Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
+Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name('blog');
+Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
+Route::get('/elements', [App\Http\Controllers\HomeController::class, 'elements'])->name('elements');
+Route::get('/food_menu', [App\Http\Controllers\HomeController::class, 'foodMenu'])->name('food_menu');
+Route::get('/menu', [App\Http\Controllers\HomeController::class, 'menu'])->name('menu');
+Route::get('/single_blog', [App\Http\Controllers\HomeController::class, 'singleBlog'])->name('single_blog');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

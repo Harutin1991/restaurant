@@ -172,7 +172,7 @@
             <!-- .row -->
 
         </div>
-        <footer class="footer text-center"> 2020 &copy; Created By Aimtech LLC</footer>
+        <footer class="footer text-center"> 2022 &copy; Created By Levon</footer>
     </div>
 </div>
 

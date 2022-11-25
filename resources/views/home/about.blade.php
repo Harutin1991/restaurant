@@ -42,8 +42,7 @@
                             <div class="col-lg-5">
                                 <div class="about_img">
                                     <img src="./images/xabout.png.pagespeed.ic.VlfjiV_Qeq.webp" alt=""
-                                         data-pagespeed-url-hash="4273680690"
-                                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                         data-pagespeed-url-hash="4273680690">
                                 </div>
                             </div>
                         </div>
@@ -100,8 +99,7 @@
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_1.png.pagespeed.ic.Abc2kQ5Pxi.webp" alt="#"
-                                                     data-pagespeed-url-hash="729397122"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                                     data-pagespeed-url-hash="729397122">
                                                 <h4>Alexandr</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
@@ -125,7 +123,6 @@
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_2.png.pagespeed.ic.Nh5FwpSR-l.webp" alt="#"
                                                      data-pagespeed-url-hash="1023897043"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                                 <h4>Andrey</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
@@ -148,8 +145,7 @@
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_3.png.pagespeed.ic.i3mDTqRcqw.webp" alt="#"
-                                                     data-pagespeed-url-hash="1318396964"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                                     data-pagespeed-url-hash="1318396964">
                                                 <h4>Artur</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
@@ -172,8 +168,7 @@
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_1.png.pagespeed.ic.Abc2kQ5Pxi.webp" alt="#"
-                                                     data-pagespeed-url-hash="729397122"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                                     data-pagespeed-url-hash="729397122">
                                                 <h4>Slava</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
@@ -196,8 +191,7 @@
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_2.png.pagespeed.ic.Nh5FwpSR-l.webp" alt="#"
-                                                     data-pagespeed-url-hash="1023897043"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                                     data-pagespeed-url-hash="1023897043">
                                                 <h4>Vladimir</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
@@ -220,8 +214,7 @@
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_3.png.pagespeed.ic.i3mDTqRcqw.webp" alt="#"
-                                                     data-pagespeed-url-hash="1318396964"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                                     data-pagespeed-url-hash="1318396964">
                                                 <h4>Dmitriy</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>

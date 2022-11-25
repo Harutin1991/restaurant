@@ -119,18 +119,6 @@
                         <li><a href="/admin/slider" class="waves-effect">
                                 <span class="hide-menu">Слайдеры</span></a>
                         </li>
-                        <li><a href="/admin/why-tahweel" class="waves-effect">
-                                <span class="hide-menu">Why Tahweel</span></a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="javascript:void(0);" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/about.svg') }}">
-                        <span class="hide-menu">О нас<span class="fa arrow"></span>
-                        </span>
-                    </a>
-                    <ul class="nav nav-second-level collapse">
                         <li><a href="/admin/about-us" class="waves-effect">
                                 <span class="hide-menu">О Ресторане</span></a>
                         </li>
@@ -142,6 +130,14 @@
                         </li>
                     </ul>
                 </li>
+
+{{--                <li>--}}
+{{--                    <a href="javascript:void(0);" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/about.svg') }}">--}}
+{{--                        <span class="hide-menu">О нас<span class="fa arrow"></span>--}}
+{{--                        </span>--}}
+{{--                    </a>--}}
+{{--                   --}}
+{{--                </li>--}}
 
                 <li><a href="/admin/media-center" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/mediacenter.svg') }}">
                         <span class="hide-menu">МЕДИА ЦЕНТР</span></a>

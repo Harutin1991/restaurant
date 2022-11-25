@@ -336,7 +336,7 @@
                         <h3>{{ __('home.contactUs') }}</h3>
                         <div class="single_contact_part">
                             <h5>address</h5>
-                            <p>{{ $contactInfo-> }}</p>
+                            <p>{{ $contactInfo->country }} {{ $contactInfo->factory_name }}</p>
                         </div>
                         <div class="single_contact_part">
                             <h5>WE ARE OPEN</h5>

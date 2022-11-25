@@ -443,7 +443,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <h2 class="contact-title">Get in Touch</h2>
+                    <h2 class="contact-title">Свяжитесь с нами</h2>
                 </div>
                 <div class="col-lg-8">
                     <form class="form-contact contact_form"
@@ -455,7 +455,7 @@
                                 <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
                                           onfocus="this.placeholder = &#39;&#39;"
                                           onblur="this.placeholder = &#39;Enter Message&#39;"
-                                          placeholder="Enter Message"></textarea>
+                                          placeholder="Текст"></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -463,7 +463,7 @@
                                     <input class="form-control" name="name" id="name" type="text"
                                            onfocus="this.placeholder = &#39;&#39;"
                                            onblur="this.placeholder = &#39;Enter your name&#39;"
-                                           placeholder="Enter your name">
+                                           placeholder="Имя">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -471,20 +471,20 @@
                                     <input class="form-control" name="email" id="email" type="email"
                                            onfocus="this.placeholder = &#39;&#39;"
                                            onblur="this.placeholder = &#39;Enter email address&#39;"
-                                           placeholder="Enter email address">
+                                           placeholder="Почта">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
                                     <input class="form-control" name="subject" id="subject" type="text"
                                            onfocus="this.placeholder = &#39;&#39;"
-                                           onblur="this.placeholder = &#39;Enter Subject&#39;" placeholder="Enter Subject">
+                                           onblur="this.placeholder = &#39;Enter Subject&#39;" placeholder="Заголовок">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group mt-3">
                             <button type="submit" class="button button-contactForm btn_4">
-                                Send Message
+                                Отправить письмо
                             </button>
                         </div>
                     </form>

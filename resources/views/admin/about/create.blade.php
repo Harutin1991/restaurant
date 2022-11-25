@@ -16,7 +16,7 @@
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
                                 <input type="text" class="form-control" id="title"
-                                       placeholder="Title" name="title" value="{{old('title')}}" required>
+                                       placeholder="Заголовок" name="title" value="{{old('title')}}" required>
                             </div>
 
                             <div class="form-group">
@@ -25,7 +25,7 @@
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
                                 <input type="text" class="form-control" id="link"
-                                       placeholder="Link" name="link" value="{{old('link')}}" required>
+                                       placeholder="Ссылка" name="link" value="{{old('link')}}" required>
                             </div>
 
                             <div class="form-group">
@@ -34,19 +34,19 @@
                                 @error('description')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
-                                <textarea name="description" id="description" cols="30" rows="10" class="form-control"
+                                <textarea name="Описание" id="description" cols="30" rows="10" class="form-control"
                                           style="resize: none;" required></textarea>
                             </div>
 
                             <div class="form-group">
-                                <label for="logo">Upload Image <strong class="text-danger"> &#42; </strong></label>
+                                <label for="logo">Загрузить картину<strong class="text-danger"> &#42; </strong></label>
                                 @error('path')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
                                 <input type="file" id="path" name="path" required class="dropify"/>
                             </div>
 
-                            <button type="submit" class="btn btn-success waves-effect waves-light col-md-12">Save {{$title}}
+                            <button type="submit" class="btn btn-success waves-effect waves-light col-md-12">Сохранить {{$title}}
                             </button>
                         </form>
                     </div>

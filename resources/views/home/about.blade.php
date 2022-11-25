@@ -77,8 +77,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-5">
                     <div class="section_tittle">
-                        <p>Testimonials</p>
-                        <h2>What they said</h2>
+                        <p>Отзывы</p>
+                        <h2>Что они сказали</h2>
                     </div>
                 </div>
             </div>
@@ -94,15 +94,15 @@
                                     <div class="client_review_single">
                                         <div class="client_review_text">
                                             <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
+                                                Невероятно вкусный пирог с бараниной и лимонный (как бы пирог
+                                                из детства , так готовила мама ) Всем рекомендую
+
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_1.png.pagespeed.ic.Abc2kQ5Pxi.webp" alt="#"
                                                      data-pagespeed-url-hash="729397122"
                                                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
+                                                <h4>Alexandr</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -118,15 +118,15 @@
                                     <div class="client_review_single">
                                         <div class="client_review_text">
                                             <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
+                                                Во-первых это невероятно вкусно, качественно и с душой.
+                                                Во-вторых, классные сочетания, каждый раз глаза разбегаются,
+                                                хочется попробовать все.
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_2.png.pagespeed.ic.Nh5FwpSR-l.webp" alt="#"
                                                      data-pagespeed-url-hash="1023897043"
                                                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
+                                                <h4>Andrey</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -142,15 +142,15 @@
                                     <div class="client_review_single">
                                         <div class="client_review_text">
                                             <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
+                                                Интересный интерьер, вкусная кухня и самое крутое
+                                                адекватные цены Отделочное спасибо официанту
+                                                он сделал наш вечер
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_3.png.pagespeed.ic.i3mDTqRcqw.webp" alt="#"
                                                      data-pagespeed-url-hash="1318396964"
                                                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
+                                                <h4>Artur</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -166,15 +166,15 @@
                                     <div class="client_review_single">
                                         <div class="client_review_text">
                                             <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
+                                                Сейчас в такую сырую погоду хочется поужинать в уютном
+                                                заведении. Приятная атмосфера и интерьер с расслабляющей
+                                                музыкой.
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_1.png.pagespeed.ic.Abc2kQ5Pxi.webp" alt="#"
                                                      data-pagespeed-url-hash="729397122"
                                                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
+                                                <h4>Slava</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -190,15 +190,15 @@
                                     <div class="client_review_single">
                                         <div class="client_review_text">
                                             <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
+                                                Кухня потрясающая, коктейли на уровне. Берёшь что угодно
+                                                из меню и оно вкусно). Хорошее заведение. Рекомендую !
+                                                все понравилось.
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_2.png.pagespeed.ic.Nh5FwpSR-l.webp" alt="#"
                                                      data-pagespeed-url-hash="1023897043"
                                                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
+                                                <h4>Vladimir</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -214,15 +214,15 @@
                                     <div class="client_review_single">
                                         <div class="client_review_text">
                                             <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
+                                                Уже не первый раз в этом месте, периодически ходим сюда с
+                                                друзьями. Здесь безумно вкусно и очень приветливый
+                                                персонал.
                                             </p>
                                             <div class="client_review_img">
                                                 <img src="./images/xclient_3.png.pagespeed.ic.i3mDTqRcqw.webp" alt="#"
                                                      data-pagespeed-url-hash="1318396964"
                                                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
+                                                <h4>Dmitriy</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -234,150 +234,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="owl-item active" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_1.png.pagespeed.ic.Abc2kQ5Pxi.webp" alt="#"
-                                                     data-pagespeed-url-hash="729397122"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item active center" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_2.png.pagespeed.ic.Nh5FwpSR-l.webp" alt="#"
-                                                     data-pagespeed-url-hash="1023897043"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item active" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_3.png.pagespeed.ic.i3mDTqRcqw.webp" alt="#"
-                                                     data-pagespeed-url-hash="1318396964"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_1.png.pagespeed.ic.Abc2kQ5Pxi.webp" alt="#"
-                                                     data-pagespeed-url-hash="729397122"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_2.png.pagespeed.ic.Nh5FwpSR-l.webp" alt="#"
-                                                     data-pagespeed-url-hash="1023897043"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Good lights it very to above. Days image to sea over there
-                                                seasons and spirit beast in greater bearing tool creepeth
-                                                very behold.
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_3.png.pagespeed.ic.i3mDTqRcqw.webp" alt="#"
-                                                     data-pagespeed-url-hash="1318396964"
-                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                                <h4>Mosan Cameron</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                         <div class="owl-nav disabled">

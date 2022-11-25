@@ -132,7 +132,7 @@
                     </a>
                     <ul class="nav nav-second-level collapse">
                         <li><a href="/admin/about-us" class="waves-effect">
-                                <span class="hide-menu">About Us</span></a>
+                                <span class="hide-menu">О Ресторане</span></a>
                         </li>
                         <li><a href="/admin/overview" class="waves-effect">
                                 <span class="hide-menu">Overview</span></a>
@@ -174,25 +174,30 @@
                         <span class="hide-menu">Job Application</span></a>
                 </li>
 
-                <li><a href="/admin/subscriber" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/subscriber.svg') }}">
+                <li>
+                    <a href="/admin/subscriber" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/subscriber.svg') }}">
                         <span class="hide-menu">Subscriber</span></a>
                 </li>
-
                 <li>
-                    <a href="javascript:void(0);" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/contactus.svg') }}">
-                        <span class="hide-menu">Contact Us<span class="fa arrow"></span>
-                        </span>
-                    </a>
-                    <ul class="nav nav-second-level collapse">
-                        <li><a href="/admin/contact-us" class="waves-effect">
-                                <span class="hide-menu">Contact Us</span></a>
-                        </li>
-                        <li><a href="/admin/career" class="waves-effect">
-                                <span class="hide-menu">Career</span></a>
-                        </li>
-
-                    </ul>
+                    <a href="/admin/contact-us" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/contactus.svg') }}">
+                        <span class="hide-menu">Контакты</span></a>
                 </li>
+
+{{--                <li>--}}
+{{--                    <a href="javascript:void(0);" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/contactus.svg') }}">--}}
+{{--                        <span class="hide-menu">КОНТАКТЫ<span class="fa arrow"></span>--}}
+{{--                        </span>--}}
+{{--                    </a>--}}
+{{--                    <ul class="nav nav-second-level collapse">--}}
+{{--                        <li><a href="/admin/contact-us" class="waves-effect">--}}
+{{--                                <span class="hide-menu">Contact Us</span></a>--}}
+{{--                        </li>--}}
+{{--                        <li><a href="/admin/career" class="waves-effect">--}}
+{{--                                <span class="hide-menu">Career</span></a>--}}
+{{--                        </li>--}}
+
+{{--                    </ul>--}}
+{{--                </li>--}}
 
                 <li><a href="/admin/mail-settings" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/mailsettings.svg') }}">
                         <span class="hide-menu">Mail Settings</span></a>

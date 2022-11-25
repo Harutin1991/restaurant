@@ -89,13 +89,13 @@
                          id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('home') }}">Home</a>
+                                <a class="nav-link" href="{{ route('home') }}">Главная</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('about') }}">About</a>
+                                <a class="nav-link" href="{{ route('about') }}">О ресторане</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('food_menu') }}">Menu</a>
+                                <a class="nav-link" href="{{ route('food_menu') }}">Меню</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="./blog.html" id="navbarDropdown" role="button"
@@ -117,7 +117,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+                                <a class="nav-link" href="{{ route('contact') }}">Контакты</a>
                             </li>
                         </ul>
                     </div>

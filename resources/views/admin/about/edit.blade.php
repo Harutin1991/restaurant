@@ -12,26 +12,26 @@
                             @method("PUT")
 
                             <div class="form-group">
-                                <label for="title">Title <strong class="text-danger"> &#42; </strong> </label>
+                                <label for="title">Заголовок <strong class="text-danger"> &#42; </strong> </label>
                                 @error('title')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
                                 <input type="text" class="form-control" id="title"
-                                       placeholder="Title" name="title" value="{{$data->title}}" required>
+                                       placeholder="Заголовок" name="title" value="{{$data->title}}" required>
                             </div>
 
                             <div class="form-group">
-                                <label for="description">Description <strong class="text-danger">
+                                <label for="description">Описание <strong class="text-danger">
                                         &#42; </strong></label>
                                 @error('description')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
                                 <textarea name="description" id="description" cols="30" rows="10" class="form-control"
-                                          style="resize: none;" required>{{$data->description}}</textarea>
+                                          placeholder="Описание" style="resize: none;" required>{{$data->description}}</textarea>
                             </div>
 
                             <div class="form-group">
-                                <label for="description">Link <strong class="text-danger"> &#42; </strong></label>
+                                <label for="description">Ссылка <strong class="text-danger"> &#42; </strong></label>
                                 @error('link')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
@@ -39,7 +39,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="logo">Upload Image </label>
+                                <label for="logo">Загрузить картину</label>
                                 @error('path')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
@@ -47,7 +47,7 @@
                             </div>
 
                             <button type="submit" class="btn btn-success waves-effect waves-light col-md-12">
-                                Save {{$title}}
+                                Сохранить
                             </button>
                         </form>
                     </div>

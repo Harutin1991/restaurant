@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Storage;
 
 class AboutUsController extends Controller
 {
-    const TITLE = "About Us";
+    const TITLE = "О ресторане";
     const ABOUT_FOLDER = "admin.about";
     const ROUTE = "/admin/about-us";
 

@@ -13,7 +13,7 @@ class ContactUsController extends Controller
 {
 
     const FOLDER = "admin.contact";
-    const TITLE = "Contact Us";
+    const TITLE = "Контакты";
     const ROUTE = "/admin/contact-us";
 
     const CAREER_FOLDER = "admin.career";
@@ -54,9 +54,9 @@ class ContactUsController extends Controller
         $request->validate([
             "factory_name" => "required",
             "country" => "required",
-            "telephone_number" => "required|regex:/^([0-9\s\-\+\(\)]*)$/",
+            "telephone_number" => "required",
             "fax_number" => "required",
-//            "po_box" => "numeric",
+            "po_box" => "required",
         ]);
 
         $contactUs = new ContactUs;

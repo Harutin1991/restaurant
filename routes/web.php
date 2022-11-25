@@ -9,6 +9,7 @@ use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\CatalogController;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\AboutUsController;
+use App\Http\Controllers\Admin\ContactUsController;
 
 
 

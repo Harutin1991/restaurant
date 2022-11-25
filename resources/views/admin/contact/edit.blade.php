@@ -12,16 +12,7 @@
                             @method("PUT")
 
                             <div class="form-group">
-                                <label for="factory_name">Factory Name <strong class="text-danger"> &#42; </strong> </label>
-                                @error('factory_name')
-                                <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
-                                @enderror
-                                <input type="text" class="form-control" id="factory_name"
-                                       placeholder="Factory Name" name="factory_name" value="{{$data->factory_name}}" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="country">Country <strong class="text-danger"> &#42; </strong> </label>
+                                <label for="country">Страна, Город <strong class="text-danger"> &#42; </strong> </label>
                                 @error('country')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
@@ -30,7 +21,16 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="telephone_number">Telephone Number <strong class="text-danger"> &#42; </strong> </label>
+                                <label for="factory_name">Улица <strong class="text-danger"> &#42; </strong> </label>
+                                @error('factory_name')
+                                <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
+                                @enderror
+                                <input type="text" class="form-control" id="factory_name"
+                                       placeholder="Factory Name" name="factory_name" value="{{$data->factory_name}}" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="telephone_number">Телефон<strong class="text-danger"> &#42; </strong> </label>
                                 @error('telephone_number')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
@@ -39,7 +39,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="fax_number">Fax Number <strong class="text-danger"> &#42; </strong> </label>
+                                <label for="fax_number">Режим работы <strong class="text-danger"> &#42; </strong> </label>
                                 @error('fax_number')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
@@ -48,11 +48,11 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="po_box">P.O Box </label>
+                                <label for="po_box">Почта</label>
                                 @error('po_box')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
-                                <input type="number" class="form-control" id="po_box"
+                                <input type="text" class="form-control" id="po_box"
                                        placeholder="P.O Box" name="po_box" value="{{$data->po_box}}" >
                             </div>
 

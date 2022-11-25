@@ -7,8 +7,8 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item">
-                            <p>home. contact</p>
-                            <h2>cantact us</h2>
+{{--                            <p>Контакты</p>--}}
+                            <h2>Контакты</h2>
                         </div>
                     </div>
                 </div>

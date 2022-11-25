@@ -35,7 +35,7 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="about_img">
-                                    <img src="./images/xabout.png.pagespeed.ic.VlfjiV_Qeq.webp" alt="">
+                                    <img src="{{asset("/uploads/$aboutInfo->path")}}' alt="{{$aboutInfo->title}}" >
                                 </div>
                             </div>
                         </div>
@@ -51,70 +51,49 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="section_tittle">
-                        <p>Popular Menu</p>
-                        <h2>Delicious Food Menu</h2>
+                        <p>{{ __('home.popularMenu') }}</p>
+                        <h2>{{ __('home.deliciousMenu') }}</h2>
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="single-member">
                         <div class="row">
                             <div class="col-sm-6 col-lg-6">
+                                <?php $count = 0;?>
+                                @foreach($products as $product)
+                                    @if($count <= 2)
                                 <div class="single_food_item media">
-                                    <img src="./images/xsingle_food_1.png.pagespeed.ic.BEzTNKCjrm.webp"
-                                         class="img-responsive" alt="...">
+                                    <img {{ asset("uploads/".$product->logo)}}'
+                                            alt="{{$product->title}}"
+                                            class="img-responsive" >
                                     <div class="media-body align-self-center">
-                                        <h3>Pork Sandwich</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
-                                        <h5>Form $40.00</h5>
+                                        <h3>{{$product->title}}</h3>
+                                        <p>{{$product->short_description}}</p>
+                                        <h5>{{$product->price}}</h5>
                                     </div>
                                 </div>
-                                <div class="single_food_item media">
-                                    <img src="./images/xsingle_food_2.png.pagespeed.ic.u-KHJaO00s.webp"
-                                         class="img-responsive" alt="...">
-                                    <div class="media-body align-self-center">
-                                        <h3>Roasted Marrow</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
-                                        <h5>Form $40.00</h5>
-                                    </div>
-                                </div>
-                                <div class="single_food_item media">
-                                    <img src="./images/xsingle_food_3.png.pagespeed.ic.oyVNuZ3Bdi.webp"
-                                         class="img-responsive" alt="...">
-                                    <div class="media-body align-self-center">
-                                        <h3>Summer Cooking</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
-                                        <h5>Form $40.00</h5>
-                                    </div>
-                                </div>
+                                    @endif;
+                                            <?php $count++; ?>
+                                @endforeach
                             </div>
                             <div class="col-sm-6 col-lg-6">
-                                <div class="single_food_item media">
-                                    <img src="./images/xsingle_food_4.png.pagespeed.ic.X1RRnZ9nUv.webp"
-                                         class="img-responsive" alt="...">
-                                    <div class="media-body align-self-center">
-                                        <h3>Easter Delight</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
-                                        <h5>Form $40.00</h5>
-                                    </div>
-                                </div>
-                                <div class="single_food_item media">
-                                    <img src="./images/xsingle_food_5.png.pagespeed.ic.tJjFhHxITl.webp"
-                                         class="img-responsive" alt="...">
-                                    <div class="media-body align-self-center">
-                                        <h3>Tiener Schnitze</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
-                                        <h5>Form $40.00</h5>
-                                    </div>
-                                </div>
-                                <div class="single_food_item media">
-                                    <img src="./images/xsingle_food_6.png.pagespeed.ic.NcNuzzTtD-.webp"
-                                         class="img-responsive" alt="...">
-                                    <div class="media-body align-self-center">
-                                        <h3>Chicken Roast</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
-                                        <h5>Form $40.00</h5>
-                                    </div>
-                                </div>
+                                <?php $count = 0;?>
+                                @foreach($products as $product)
+                                    @if($count > 2)
+                                        <div class="single_food_item media">
+                                            <img {{ asset("uploads/".$product->logo)}}'
+                                            alt="{{$product->title}}"
+                                            class="img-responsive" >
+                                            <div class="media-body align-self-center">
+                                                <h3>{{$product->title}}</h3>
+                                                <p>{{$product->short_description}}</p>
+                                                <h5>{{$product->price}}</h5>
+                                            </div>
+                                        </div>
+                                    @endif;
+                                        <?php $count++; ?>
+                                @endforeach
+
                             </div>
                         </div>
                     </div>

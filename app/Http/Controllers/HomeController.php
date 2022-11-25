@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Admin\AboutUs;
 use Illuminate\Http\Request;
 use App\Admin\ContactUs;
+use App\Admin\Product;
 use App;
 
 class HomeController extends Controller
@@ -29,7 +30,8 @@ class HomeController extends Controller
     {
         $contactInfo = ContactUs::first();
         $aboutInfo = AboutUs::first();
-        return view('home.index', compact('aboutInfo', 'contactInfo'));
+        $products = Product::first(6);
+        return view('home.index', compact('aboutInfo', 'contactInfo', 'products'));
     }
 
 	public function about()

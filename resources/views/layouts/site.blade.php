@@ -14,17 +14,28 @@
 {{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" crossorigin="anonymous">--}}
 
     <!-- Load font awesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+{{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">--}}
 
-    <link rel="stylesheet"
-          href="./css/A.bootstrap.min.css+animate.css+owl.carousel.min.css+themify-icons.css+flaticon.css+magnific-popup.css+slick.css+gijgo.min.css+nice-select.css+all.css,Mcc.qfM2swdgN8.css..css">
 
-    <link rel="stylesheet" href="./css/A.style.css.pagespeed.cf.nsM032VUzL.css">
+{{--    <link rel="stylesheet"--}}
+{{--          href="./css/A.bootstrap.min.css+animate.css+owl.carousel.min.css+themify-icons.css+flaticon.css+magnific-popup.css+slick.css+gijgo.min.css+nice-select.css+all.css,Mcc.qfM2swdgN8.css..css">--}}
 
-{{--    <link rel="stylesheet" href="./css/_intro_video_bg.css">--}}
-    <script type="text/javascript" async="" src="./js/analytics.js.download"
-            nonce="a30efc86-2814-4110-8203-39e5bc6170f6"></script>
-    <script defer="" referrerpolicy="origin" src="./js/s.js.download"></script>
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/flaticon.css">
+    <link rel="stylesheet" href="./css/gijgo.min.css">
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+    <link rel="stylesheet" href="./css/nice-select.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/themify-icons.css">
+
+
+{{--    <script type="text/javascript" async="" src="./js/analytics.js"--}}
+{{--            nonce="a30efc86-2814-4110-8203-39e5bc6170f6"></script>--}}
+{{--    <script defer="" referrerpolicy="origin" src="./js/s.js.download"></script>--}}
     <script nonce="a30efc86-2814-4110-8203-39e5bc6170f6">(function (w, d) {
             !function (a, e, t, r) {
                 a.zarazData = a.zarazData || {};
@@ -219,30 +230,20 @@
 </footer>
 
 
-<script src="./js/jquery-1.12.1.min.js.download"></script>
 
-<script src="./js/popper.min.js+bootstrap.min.js.pagespeed.jc.dnpjRteUAI.js.download"></script>
-<script>eval(mod_pagespeed_K_FOI4z3Gz);</script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/custom.js"></script>
+<script src="./js/gijgo.min.js"></script>
+<script src="./js/jquery-1.12.1.min.js"></script>
+<script src="./js/jquery.magnific-popup.js"></script>
+<script src="./js/jquery.nice-select.min.js"></script>
+<script src="./js/masonry.pkgd.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/swiper.min.js"></script>
 
-<script>eval(mod_pagespeed_sNmPIrnSp2);</script>
 
-<script src="./js/jquery.magnific-popup.js.download"></script>
-
-<script src="./js/swiper.min.js.download"></script>
-
-<script src="./js/masonry.pkgd.js.download"></script>
-
-<script src="./js/owl.carousel.min.js+slick.min.js.pagespeed.jc.ukCXEDCbu8.js.download"></script>
-<script>eval(mod_pagespeed_bFck02mBSj);</script>
-
-<script>eval(mod_pagespeed_C_i_Yijl62);</script>
-<script src="./js/gijgo.min.js.download"></script>
-<script src="./js/jquery.nice-select.min.js+custom.js.pagespeed.jc.yhcUnf1S7u.js.download"></script>
-<script>eval(mod_pagespeed_DrBjB1LrH0);</script>
-
-<script>eval(mod_pagespeed_vvdQVHcTNp);</script>
-
-<script async="" src="./js/js"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 

@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Admin\AboutUs;
 use Illuminate\Http\Request;
+use App\Admin\ContactUs;
+use App;
 
 class HomeController extends Controller
 {
@@ -13,7 +16,8 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        //$this->middleware('auth');
+        App::setLocale('ru');
+        session()->put('locale', 'ru');
     }
 
     /**
@@ -23,8 +27,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //return view('home');
-        return view('home.index');
+        $contactInfo = ContactUs::first();
+        $aboutInfo = AboutUs::first();
+        return view('home.index', compact('aboutInfo', 'contactInfo'));
     }
 
 	public function about()
@@ -39,7 +44,6 @@ class HomeController extends Controller
     }
     public function contact()
     {
-        //return view('home');
         return view('home.contact');
     }
     public function elements()

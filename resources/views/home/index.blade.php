@@ -18,7 +18,6 @@
         </div>
     </section>
 
-
     <section class="about_part">
         <div class="container">
             <div class="row align-items-center justify-content-center">
@@ -27,18 +26,11 @@
                         <div class="row align-items-center">
                             <div class="col-lg-7">
                                 <div class="about_text">
-                                    <h5>about us</h5>
-                                    <h2>Delicious food provider since 1990</h2>
-                                    <p>
-                                        Good lights it very to above. Days image to sea. Over
-                                        there seasons and spirit beast in. Greater bearing
-                                        creepeth very behold fourth night morning seed moved.
-                                    </p>
-                                    <p>
-                                        Good lights it very to above. Days image to sea. Over
-                                        seasons and spirit beast in over greater bearing creepeth.
-                                    </p>
-                                    <a href="./index.html#" class="btn_3">learn More</a>
+                                    <h5>{{ __('home.aboutUs') }}</h5>
+                                    <h2>{{ $aboutInfo->title }}</h2>
+                                    <p>{{ $aboutInfo->short_description }}</p>
+                                    <p>{{ $aboutInfo->description }}</p>
+                                    <a href="{{ $aboutInfo->link }}" class="btn_3">{{ __('home.learnMore') }}</a>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -341,10 +333,10 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="contact_part_iner">
-                        <h3>Contact Us</h3>
+                        <h3>{{ __('home.contactUs') }}</h3>
                         <div class="single_contact_part">
                             <h5>address</h5>
-                            <p>240, Kings street, New York city USA</p>
+                            <p>{{ $contactInfo->country }} {{ $contactInfo->factory_name }}</p>
                         </div>
                         <div class="single_contact_part">
                             <h5>WE ARE OPEN</h5>

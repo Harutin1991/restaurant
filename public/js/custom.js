@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-  $('#datepicker').datepicker();
+  //$('#datepicker').datepicker();
 
   $('.popup-youtube, .popup-vimeo').magnificPopup({
     // disableOn: 700,

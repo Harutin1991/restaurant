@@ -30,7 +30,7 @@ class HomeController extends Controller
     {
         $contactInfo = ContactUs::first();
         $aboutInfo = AboutUs::first();
-        $products = Product::take(6);
+        $products = Product::all()->take(6);
         return view('home.index', compact('aboutInfo', 'contactInfo', 'products'));
     }
 

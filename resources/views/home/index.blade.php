@@ -35,7 +35,7 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="about_img">
-                                    <img src="{{asset("/uploads/$aboutInfo->path")}}' alt="{{$aboutInfo->title}}" >
+                                    <img src='{{asset("/uploads/$aboutInfo->path")}}' alt="{{$aboutInfo->title}}" >
                                 </div>
                             </div>
                         </div>
@@ -61,9 +61,10 @@
                             <div class="col-sm-6 col-lg-6">
                                 <?php $count = 0;?>
                                 @foreach($products as $product)
+                                
                                     @if($count <= 2)
                                 <div class="single_food_item media">
-                                    <img {{ asset("uploads/".$product->logo)}}'
+                                    <img src='{{ asset("uploads/".$product->logo)}}'
                                             alt="{{$product->title}}"
                                             class="img-responsive" >
                                     <div class="media-body align-self-center">
@@ -72,7 +73,7 @@
                                         <h5>{{$product->price}}</h5>
                                     </div>
                                 </div>
-                                    @endif;
+                                    @endif
                                             <?php $count++; ?>
                                 @endforeach
                             </div>
@@ -81,7 +82,7 @@
                                 @foreach($products as $product)
                                     @if($count > 2)
                                         <div class="single_food_item media">
-                                            <img {{ asset("uploads/".$product->logo)}}'
+                                            <img src='{{ asset("uploads/".$product->logo)}}'
                                             alt="{{$product->title}}"
                                             class="img-responsive" >
                                             <div class="media-body align-self-center">
@@ -90,7 +91,7 @@
                                                 <h5>{{$product->price}}</h5>
                                             </div>
                                         </div>
-                                    @endif;
+                                    @endif
                                         <?php $count++; ?>
                                 @endforeach
 

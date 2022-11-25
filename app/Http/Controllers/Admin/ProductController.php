@@ -13,7 +13,7 @@ use App\Admin\ProductSpecification;
 use App\Admin\ProductTabsMap;
 use App\Admin\Specification;
 use App\Admin\SpecificationType;
-use App\helpers\FileUploadHelper;
+use App\Helpers\FileUploadHelper;
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;
 use Illuminate\Http\File;

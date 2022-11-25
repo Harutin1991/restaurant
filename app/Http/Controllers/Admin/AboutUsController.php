@@ -30,20 +30,14 @@ class AboutUsController extends Controller
     const HEALTH_SAFETY_FOLDER = "admin.about.health-safety";
     const PEOPLE_FOLDER = "admin.about.people";
 
-    const TITLE_OVERVIEW = "Overview";
+    const TITLE_OVERVIEW = "Что они сказали";
     const TITLE_INTEGRATED = "Integrated";
-    const TITLE_MISSION_VISION = "Mission & Vision";
-    const TITLE_HISTORY = "History";
-    const TITLE_AROUND_WORLD= "Around The World";
-    const TITLE_HEALTH_SAFETY= "Health & Safety";
+    const TITLE_HISTORY = "ИСТОРИЯ";
     const TITLE_PEOPLE= "Tahweel's People";
 
     const OVERVIEW_ROUTE = "/admin/overview";
     const INTEGRATED_ROUTE = "/admin/integrated";
-    const MISSION_VISION_ROUTE = "/admin/mission-vision";
     const HISTORY_ROUTE = "/admin/history";
-    const AROUND_WORLD_ROUTE = "/admin/around-world";
-    const HEALTH_SAFETY_ROUTE = "/admin/health-safety";
     const PEOPLE_ROUTE = "/admin/people";
 
     /**

@@ -12,7 +12,7 @@ class SocialController extends Controller
 {
 
     const FOLDER = "admin.social";
-    const TITLE = "Social Links";
+    const TITLE = "СОЦИАЛЬНЫЕ ССЫЛКИ";
     const ROUTE = "/admin/social";
 
     /**

@@ -26,7 +26,7 @@ class ProductController extends Controller
 {
 
     const FOLDER = "admin.products";
-    const TITLE = "Products";
+    const TITLE = "Товары";
     const ROUTE = "/admin/products";
 
     /**

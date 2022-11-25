@@ -78,46 +78,46 @@
             <ul class="nav" id="side-menu">
 
                 <li><a href="/admin" class="waves-effect"><i class="mdi mdi-home fa-fw"></i>
-                        <span class="hide-menu">Home</span></a>
+                        <span class="hide-menu">Главная</span></a>
                 </li>
 
                 <li class="devider"></li>
 
                 <li>
                     <a href="javascript:void(0);" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/productmanagment.svg') }}">
-                        <span class="hide-menu">Product Managment<span class="fa arrow"></span>
+                        <span class="hide-menu">Управление продуктом<span class="fa arrow"></span>
                         </span>
                     </a>
                     <ul class="nav nav-second-level collapse">
                         <li><a href="/admin/products" class="waves-effect">
-                                <span class="hide-menu">Products</span></a>
+                                <span class="hide-menu">Товары</span></a>
                         </li>
                         {{--<li><a href="/admin/product/details" class="waves-effect"><i class="mdi mdi-cart fa-fw"></i>
                                 <span class="hide-menu">Product Details</span></a>
                         </li>--}}
-                        <li><a href="/admin/product-tabs" class="waves-effect">
+{{--                        <li><a href="/admin/product-tabs" class="waves-effect">
                                 <span class="hide-menu">Product Tabs</span></a>
-                        </li>
+                        </li>--}}
                         {{--<li><a href="/admin/product/configuration" class="waves-effect"><i class="mdi mdi-cart fa-fw"></i>
                                 <span class="hide-menu">Product Configuration</span></a>
                         </li>--}}
                         <li><a href="/admin/categories" class="waves-effect">
-                                <span class="hide-menu">Category</span></a>
+                                <span class="hide-menu">Категория</span></a>
                         </li>
                         <li><a href="/admin/catalog" class="waves-effect">
-                                <span class="hide-menu">Product Catalogue</span></a>
+                                <span class="hide-menu">Каталог продукции</span></a>
                         </li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="javascript:void(0);" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/home.svg') }}">
-                        <span class="hide-menu">Home Page<span class="fa arrow"></span>
+                        <span class="hide-menu">Главная страница<span class="fa arrow"></span>
                         </span>
                     </a>
                     <ul class="nav nav-second-level collapse">
                         <li><a href="/admin/slider" class="waves-effect">
-                                <span class="hide-menu">Sliders</span></a>
+                                <span class="hide-menu">Слайдеры</span></a>
                         </li>
                         <li><a href="/admin/why-tahweel" class="waves-effect">
                                 <span class="hide-menu">Why Tahweel</span></a>
@@ -127,7 +127,7 @@
 
                 <li>
                     <a href="javascript:void(0);" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/about.svg') }}">
-                        <span class="hide-menu">About Us<span class="fa arrow"></span>
+                        <span class="hide-menu">О нас<span class="fa arrow"></span>
                         </span>
                     </a>
                     <ul class="nav nav-second-level collapse">
@@ -135,72 +135,25 @@
                                 <span class="hide-menu">О Ресторане</span></a>
                         </li>
                         <li><a href="/admin/overview" class="waves-effect">
-                                <span class="hide-menu">Overview</span></a>
-                        </li>
-                        <li><a href="/admin/integrated" class="waves-effect">
-                                <span class="hide-menu">Tahweel Integrated</span></a>
-                        </li>
-                        <li><a href="/admin/mission-vision" class="waves-effect">
-                                <span class="hide-menu">Mission & Vision</span></a>
+                                <span class="hide-menu">Что они сказали</span></a>
                         </li>
                         <li><a href="/admin/history" class="waves-effect">
-                                <span class="hide-menu">History</span></a>
-                        </li>
-                        <li><a href="/admin/around-world" class="waves-effect">
-                                <span class="hide-menu">Around The World</span></a>
-                        </li>
-                        <li><a href="/admin/health-safety" class="waves-effect">
-                                <span class="hide-menu">Health & Safety</span></a>
-                        </li>
-                        <li><a href="/admin/people" class="waves-effect">
-                                <span class="hide-menu">Tahweel's People</span></a>
+                                <span class="hide-menu">ИСТОРИЯ</span></a>
                         </li>
                     </ul>
                 </li>
 
                 <li><a href="/admin/media-center" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/mediacenter.svg') }}">
-                        <span class="hide-menu">Media Center</span></a>
+                        <span class="hide-menu">МЕДИА ЦЕНТР</span></a>
                 </li>
 
                 <li><a href="/admin/social" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/sociallinks.svg') }}">
-                        <span class="hide-menu">Social Links</span></a>
+                        <span class="hide-menu">СОЦИАЛЬНЫЕ ССЫЛКИ</span></a>
                 </li>
 
-                <li><a href="/admin/vacancies" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/vacancies.svg') }}">
-                        <span class="hide-menu">Vacancies</span></a>
-                </li>
-
-                <li><a href="/admin/job-application" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/jobapplication.svg') }}">
-                        <span class="hide-menu">Job Application</span></a>
-                </li>
-
-                <li>
-                    <a href="/admin/subscriber" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/subscriber.svg') }}">
-                        <span class="hide-menu">Subscriber</span></a>
-                </li>
                 <li>
                     <a href="/admin/contact-us" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/contactus.svg') }}">
                         <span class="hide-menu">Контакты</span></a>
-                </li>
-
-{{--                <li>--}}
-{{--                    <a href="javascript:void(0);" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/contactus.svg') }}">--}}
-{{--                        <span class="hide-menu">КОНТАКТЫ<span class="fa arrow"></span>--}}
-{{--                        </span>--}}
-{{--                    </a>--}}
-{{--                    <ul class="nav nav-second-level collapse">--}}
-{{--                        <li><a href="/admin/contact-us" class="waves-effect">--}}
-{{--                                <span class="hide-menu">Contact Us</span></a>--}}
-{{--                        </li>--}}
-{{--                        <li><a href="/admin/career" class="waves-effect">--}}
-{{--                                <span class="hide-menu">Career</span></a>--}}
-{{--                        </li>--}}
-
-{{--                    </ul>--}}
-{{--                </li>--}}
-
-                <li><a href="/admin/mail-settings" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/mailsettings.svg') }}">
-                        <span class="hide-menu">Mail Settings</span></a>
                 </li>
 
             </ul>

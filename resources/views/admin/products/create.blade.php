@@ -58,18 +58,6 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="product_tab">Select Tabs </label>
-                                @error('product_tab')
-                                <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
-                                @enderror
-                                <div class="form-check form-check-inline">
-                                    @foreach($product_tabs as $key)
-                                        <input type="checkbox" class="form-check-input" name="tabs[]" value="{{$key->id}}" id="{{$key->id}}" autocomplete="off">
-                                        <label class="form-check-label" for="btncheck">{{$key->name}}</label>
-                                    @endforeach
-                                </div>
-                            </div>
-                            <div class="form-group">
                                 <label for="product_desc">Product Description</label>
                                 @error('product_desc')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>

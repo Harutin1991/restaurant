@@ -3,7 +3,7 @@
 return [
 
     'contactUs' => 'Свяжитесь с нами',
-    'learnMore' => 'Узнать Больше',
+    'learnMore' => 'Узнать больше',
     'aboutUs' => 'О нас'
 
 ];

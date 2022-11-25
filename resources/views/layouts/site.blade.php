@@ -11,11 +11,16 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <link rel="icon" href="https://preview.colorlib.com/theme/buri/img/xfavicon.png.pagespeed.ic.9qSq0vsnZ8.webp">
+{{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" crossorigin="anonymous">--}}
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
     <link rel="stylesheet"
           href="./css/A.bootstrap.min.css+animate.css+owl.carousel.min.css+themify-icons.css+flaticon.css+magnific-popup.css+slick.css+gijgo.min.css+nice-select.css+all.css,Mcc.qfM2swdgN8.css..css">
 
     <link rel="stylesheet" href="./css/A.style.css.pagespeed.cf.nsM032VUzL.css">
+
 {{--    <link rel="stylesheet" href="./css/_intro_video_bg.css">--}}
     <script type="text/javascript" async="" src="./js/analytics.js.download"
             nonce="a30efc86-2814-4110-8203-39e5bc6170f6"></script>

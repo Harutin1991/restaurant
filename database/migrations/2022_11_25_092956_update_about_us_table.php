@@ -13,7 +13,9 @@ class UpdateAboutUsTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::table('about_us', function (Blueprint $table) {
+           $table->string('short_description')->after('title');
+        });
     }
 
     /**

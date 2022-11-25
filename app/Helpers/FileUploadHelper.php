@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\helpers;
+namespace App\Helpers;
 
 use Illuminate\Http\File;
 use Illuminate\Support\Facades\Storage;

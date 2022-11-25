@@ -68,7 +68,7 @@
                                             class="img-responsive" >
                                     <div class="media-body align-self-center">
                                         <h3>{{$product->title}}</h3>
-                                        <p>{{$product->short_description}}</p>
+                                        <p>{{$product->uses_desc}}</p>
                                         <h5>{{$product->price}}</h5>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@
                                             class="img-responsive" >
                                             <div class="media-body align-self-center">
                                                 <h3>{{$product->title}}</h3>
-                                                <p>{{$product->short_description}}</p>
+                                                <p>{{$product->uses_desc}}</p>
                                                 <h5>{{$product->price}}</h5>
                                             </div>
                                         </div>

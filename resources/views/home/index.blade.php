@@ -341,7 +341,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="contact_part_iner">
-                        <h3>Contact Us</h3>
+                        <h3>{{ __('contactUs') }}</h3>
                         <div class="single_contact_part">
                             <h5>address</h5>
                             <p>240, Kings street, New York city USA</p>

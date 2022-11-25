@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Admin\AboutUs;
 use Illuminate\Http\Request;
 use App\Admin\ContactUs;
+use App;
 
 class HomeController extends Controller
 {

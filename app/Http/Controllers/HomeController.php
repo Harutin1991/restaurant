@@ -29,7 +29,7 @@ class HomeController extends Controller
     {
         $contactInfo = ContactUs::all();
         $aboutInfo = AboutUs::all();
-        return view('home.index', compact('contactInfo', 'aboutInfo'));
+        return view('home.index', compact('aboutInfo', 'contactInfo'));
     }
 
 	public function about()

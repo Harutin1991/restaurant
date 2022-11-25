@@ -2,6 +2,7 @@
 
 return [
 
-    'contactUs' => 'Свяжитесь с нами'
+    'contactUs' => 'Свяжитесь с нами',
+    'aboutUs' => 'О нас'
 
 ];

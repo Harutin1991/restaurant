@@ -17,7 +17,11 @@
             </div>
         </div>
     </section>
-
+<?php
+echo "<pre>";
+print_r($contactInfo);
+print_r($aboutInfo);die;
+?>
 
     <section class="about_part">
         <div class="container">
@@ -27,7 +31,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-7">
                                 <div class="about_text">
-                                    <h5>about us</h5>
+                                    <h5>{{ __('home.aboutUs') }}</h5>
                                     <h2>Delicious food provider since 1990</h2>
                                     <p>
                                         Good lights it very to above. Days image to sea. Over

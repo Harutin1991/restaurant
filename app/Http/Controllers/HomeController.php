@@ -28,7 +28,7 @@ class HomeController extends Controller
     public function index()
     {
         $contactInfo = ContactUs::first();
-        $aboutInfo = AboutUs::all();
+        $aboutInfo = AboutUs::first();
         return view('home.index', compact('aboutInfo', 'contactInfo'));
     }
 

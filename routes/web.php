@@ -47,7 +47,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
 
     Route::resource('/contact-us', ContactUsController::class);
     Route::resource('/categories', CategoryController::class);
-    Route::resource('/product-tabs', ProductTabsController::class);
+    //Route::resource('/product-tabs', ProductTabsController::class);
     Route::resource('/about-us', AboutUsController::class);
 
     Route::GET('/overview', [AboutUsController::class, 'overview']);
@@ -68,7 +68,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::resource('/why-tahweel', WhyTahweelController::class);
     Route::POST('/why-tahweel/update-ordering', [WhyTahweelController::class, 'updateOrdering']);
     Route::POST('/slider/update-ordering', [SliderController::class, 'updateOrdering']);
-    Route::POST('/product-tabs/update-ordering', [ProductTabsController::class,'updateOrdering']);
+    //Route::POST('/product-tabs/update-ordering', [ProductTabsController::class,'updateOrdering']);
 
     Route::resource('/social', SocialController::class);
     Route::resource('/catalog', CatalogController::class);

@@ -15,7 +15,7 @@ class MediaCenterController extends Controller
 {
 
     const FOLDER = "admin.mediacenter";
-    const TITLE = "Media Center";
+    const TITLE = "МЕДИА ЦЕНТР";
     const ROUTE = "/admin/media-center";
 
     /**

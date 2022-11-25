@@ -193,7 +193,7 @@ class ProductController extends Controller
 
         if ($request->thumbnail) {
             Storage::disk('public')->delete("$request->thumbnail");
-            $logo = Storage::disk('public')->putFile('product/', new File($request->thumbnail));
+            $logo = Storage::disk('public')->putFile('product', new File($request->thumbnail));
             $product->logo = $logo;
         }
 

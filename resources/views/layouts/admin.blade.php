@@ -135,17 +135,10 @@
                                 <span class="hide-menu">О Ресторане</span></a>
                         </li>
                         <li><a href="/admin/overview" class="waves-effect">
-                                <span class="hide-menu">Overview</span></a>
+                                <span class="hide-menu">Что они сказали</span></a>
                         </li>
-                        <li><a href="/admin/integrated" class="waves-effect">
-                                <span class="hide-menu">Tahweel Integrated</span></a>
-                        </li>
-
                         <li><a href="/admin/history" class="waves-effect">
-                                <span class="hide-menu">History</span></a>
-                        </li>
-                        <li><a href="/admin/people" class="waves-effect">
-                                <span class="hide-menu">Tahweel's People</span></a>
+                                <span class="hide-menu">ИСТОРИЯ</span></a>
                         </li>
                     </ul>
                 </li>

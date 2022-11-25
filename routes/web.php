@@ -10,6 +10,8 @@ use App\Http\Controllers\Admin\CatalogController;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\AboutUsController;
 use App\Http\Controllers\Admin\ContactUsController;
+use App\Http\Controllers\Admin\MediaCenterController;
+use App\Http\Controllers\Admin\SocialController;
 
 
 
@@ -52,17 +54,10 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::GET('/overview/{id}/edit', [AboutUsController::class, 'overviewEdit']);
     Route::PUT('/overview/{id}', [AboutUsController::class, 'overviewStore']);
 
-    Route::GET('/integrated', [AboutUsController::class, 'integrated']);
-    Route::GET('/integrated/{id}/edit', [AboutUsController::class, 'integratedEdit']);
-    Route::PUT('/integrated/{id}', [AboutUsController::class, 'integratedStore']);
-
     Route::GET('/history', [AboutUsController::class, 'history']);
     Route::GET('/history/{id}/edit', [AboutUsController::class, 'historyEdit']);
     Route::PUT('/history/{id}', [AboutUsController::class, 'historyStore']);
 
-    Route::GET('/people', [AboutUsController::class, 'people']);
-    Route::GET('/people/{id}/edit', [AboutUsController::class, 'peopleEdit']);
-    Route::PUT('/people/{id}', [AboutUsController::class, 'peopleStore']);
 
     //Route::POST('/about-us/overview', 'AboutUsController@overview');
     Route::GET('/integrated', [AboutUsController::class, 'integrated']);
@@ -75,12 +70,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::POST('/slider/update-ordering', [SliderController::class, 'updateOrdering']);
     Route::POST('/product-tabs/update-ordering', [ProductTabsController::class,'updateOrdering']);
 
-    Route::get('/job-application', [JobApplicationController::class, 'index']);
-    Route::get('/job-application/show/{id}', [JobApplicationController::class, 'show']);
-    Route::DELETE('/job-application/{id}', [JobApplicationController::class, 'destroy']);
-
     Route::resource('/social', SocialController::class);
-    Route::resource('/vacancies', VacancyController::class);
     Route::resource('/catalog', CatalogController::class);
 
     Route::resource('/media-center', MediaCenterController::class);

@@ -34,7 +34,8 @@
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="{{ route('home') }}">
                         <img
-                            src="data:image/webp;base64,UklGRjoBAABXRUJQVlA4TC4BAAAvTMAEEMdAmG1Uf5gp3vMUBAJJ/oLjLCAoem82g2wjnUJZ5s/0CJ/Y/nGnGgBCgAAgQbbttm3+xQdYQXz3cP9bRUc2ENH/CYha91uUulcvdVP1Uty0Gk6T6qV6SH2j2aWSgWu4wRWM5qOywdbh8gxsHXTUJsUUgH1aMjNLJ8AxR8TDNs2k7IBZYaUE2CS/kk1LAbj/P1wRYJdl7gmtxzIPoDJInXNOM8K0K8YYLw9wD9qknDwQK1hTaGg9ZJKIwjbggG3EI/P2prOmbcd5npcCtkCoiAesdAGxwUREDPDTbAfOQgR4sgNw0iM3cPZ8/Hv/PjZwoajkVhAPoKrksU82IHX8vO/7vdEZpRpovGWAAK7jt89f0hq1tJsMeYAr2ytf7/t+ykx70pNk3Y9PEQ=="
+                            src="../images/logo.jpg" width="77" height="47"
+{{--                            src="data:image/webp;base64,UklGRjoBAABXRUJQVlA4TC4BAAAvTMAEEMdAmG1Uf5gp3vMUBAJJ/oLjLCAoem82g2wjnUJZ5s/0CJ/Y/nGnGgBCgAAgQbbttm3+xQdYQXz3cP9bRUc2ENH/CYha91uUulcvdVP1Uty0Gk6T6qV6SH2j2aWSgWu4wRWM5qOywdbh8gxsHXTUJsUUgH1aMjNLJ8AxR8TDNs2k7IBZYaUE2CS/kk1LAbj/P1wRYJdl7gmtxzIPoDJInXNOM8K0K8YYLw9wD9qknDwQK1hTaGg9ZJKIwjbggG3EI/P2prOmbcd5npcCtkCoiAesdAGxwUREDPDTbAfOQgR4sgNw0iM3cPZ8/Hv/PjZwoajkVhAPoKrksU82IHX8vO/7vdEZpRpovGWAAK7jt89f0hq1tJsMeYAr2ytf7/t+ykx70pNk3Y9PEQ=="--}}
                             alt="logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -100,8 +101,9 @@
             <div class="col-xl-3 col-sm-6 col-md-3 col-lg-3">
                 <div class="single-footer-widget footer_1">
                     <img
-                        src="data:image/webp;base64,UklGRjoBAABXRUJQVlA4TC4BAAAvTMAEEMdAmG1Uf5gp3vMUBAJJ/oLjLCAoem82g2wjnUJZ5s/0CJ/Y/nGnGgBCgAAgQbbttm3+xQdYQXz3cP9bRUc2ENH/CYha91uUulcvdVP1Uty0Gk6T6qV6SH2j2aWSgWu4wRWM5qOywdbh8gxsHXTUJsUUgH1aMjNLJ8AxR8TDNs2k7IBZYaUE2CS/kk1LAbj/P1wRYJdl7gmtxzIPoDJInXNOM8K0K8YYLw9wD9qknDwQK1hTaGg9ZJKIwjbggG3EI/P2prOmbcd5npcCtkCoiAesdAGxwUREDPDTbAfOQgR4sgNw0iM3cPZ8/Hv/PjZwoajkVhAPoKrksU82IHX8vO/7vdEZpRpovGWAAK7jt89f0hq1tJsMeYAr2ytf7/t+ykx70pNk3Y9PEQ=="
-                        alt="#">
+                        src="../images/logo.jpg" width="77" height="47"
+{{--                        src="data:image/webp;base64,UklGRjoBAABXRUJQVlA4TC4BAAAvTMAEEMdAmG1Uf5gp3vMUBAJJ/oLjLCAoem82g2wjnUJZ5s/0CJ/Y/nGnGgBCgAAgQbbttm3+xQdYQXz3cP9bRUc2ENH/CYha91uUulcvdVP1Uty0Gk6T6qV6SH2j2aWSgWu4wRWM5qOywdbh8gxsHXTUJsUUgH1aMjNLJ8AxR8TDNs2k7IBZYaUE2CS/kk1LAbj/P1wRYJdl7gmtxzIPoDJInXNOM8K0K8YYLw9wD9qknDwQK1hTaGg9ZJKIwjbggG3EI/P2prOmbcd5npcCtkCoiAesdAGxwUREDPDTbAfOQgR4sgNw0iM3cPZ8/Hv/PjZwoajkVhAPoKrksU82IHX8vO/7vdEZpRpovGWAAK7jt89f0hq1tJsMeYAr2ytf7/t+ykx70pNk3Y9PEQ=="--}}
+                        alt="logo">
                     <p>+880 253 356 263</p>
                     <span>burires@contact.com</span>
                     <div class="social_icon">

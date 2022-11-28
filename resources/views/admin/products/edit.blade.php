@@ -65,6 +65,14 @@
                                 <textarea name="product_desc" id="product_desc" cols="30" rows="10" class="form-control"
                                           style="resize: none">{{$data->product_desc}}</textarea>
                             </div>
+                            <div class="form-group">
+                                <label for="product_desc">Product Price</label>
+                                @error('price')
+                                <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
+                                @enderror
+                                <input type="text" class="form-control" id="price"
+                                       placeholder="Price" name="price" value="{{old('price')}}" required>
+                            </div>
                             <div class="">
                                 <div id="product-lists-container" class="form-inline">
                                 </div>

@@ -102,6 +102,7 @@ class ProductController extends Controller
         $product->uses_desc = $request->uses_desc;
         $product->category_id = $request->category_id;
         $product->logo = $logo;
+        $product->price = $request->price;
         $product->show = $request->show;
         if($product->save()) {
             if ($request->has('tabs')&& is_array($request->tabs)) {
@@ -190,6 +191,7 @@ class ProductController extends Controller
         $product->uses_desc = $request->uses_desc;
         $product->category_id = $request->category_id;
         $product->show = $request->show;
+        $product->price = $request->price;
 
         if ($request->thumbnail) {
             Storage::disk('public')->delete("$request->thumbnail");

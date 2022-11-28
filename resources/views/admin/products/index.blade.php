@@ -18,6 +18,7 @@
                             <th>Title</th>
                             <th>Category</th>
                             <th>Show Status</th>
+                            <th>Price</th>
                             <th style="width:110px !important">Options</th>
                         </tr>
                         </thead>
@@ -31,6 +32,7 @@
                                 <td>{{$val->title}}</td>
                                 <td>{{$val->category->name}}</td>
                                 <td>{{$val->show == 1 ? "Show" : "Don`t Show"}}</td>
+                                <td>{{$val->price}}</td>
                                 <td>
                                     <a href="{{$route."/".$val->id."/specification"}}" data-toggle="tooltip"
                                        data-placement="top" title="Specification"

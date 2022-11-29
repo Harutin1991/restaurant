@@ -11,7 +11,6 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
-    <link rel="icon" href="https://preview.colorlib.com/theme/buri/img/xfavicon.png.pagespeed.ic.9qSq0vsnZ8.webp">
 
     <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="./css/animate.css">
@@ -86,8 +85,6 @@
                     <div class="social_icon d-none d-lg-block">
 {{--                        <a href="./index.html#" class="single_social_icon"><i class="fab fa-facebook-square"></i></a>--}}
                         <a href="https://vk.com/club74506872" class="single_social_icon"><i class="fab fa-vk fa-2x"></i></a>
-                        <i class="fa fa-vk" aria-hidden="true"></i>
-                        <i aria-hidden="true" class="fa fa-vk fa-2x"></i>
 {{--                        <a href="./index.html#" class="single_social_icon"><i class="fab fa-instagram"></i></a>--}}
                     </div>
                 </nav>
@@ -111,28 +108,29 @@
                         src="../images/logo.jpg" width="77" height="47"
 {{--                        src="data:image/webp;base64,UklGRjoBAABXRUJQVlA4TC4BAAAvTMAEEMdAmG1Uf5gp3vMUBAJJ/oLjLCAoem82g2wjnUJZ5s/0CJ/Y/nGnGgBCgAAgQbbttm3+xQdYQXz3cP9bRUc2ENH/CYha91uUulcvdVP1Uty0Gk6T6qV6SH2j2aWSgWu4wRWM5qOywdbh8gxsHXTUJsUUgH1aMjNLJ8AxR8TDNs2k7IBZYaUE2CS/kk1LAbj/P1wRYJdl7gmtxzIPoDJInXNOM8K0K8YYLw9wD9qknDwQK1hTaGg9ZJKIwjbggG3EI/P2prOmbcd5npcCtkCoiAesdAGxwUREDPDTbAfOQgR4sgNw0iM3cPZ8/Hv/PjZwoajkVhAPoKrksU82IHX8vO/7vdEZpRpovGWAAK7jt89f0hq1tJsMeYAr2ytf7/t+ykx70pNk3Y9PEQ=="--}}
                         alt="logo">
-                    <p>+880 253 356 263</p>
-                    <span>burires@contact.com</span>
+{{--                    <p>+880 253 356 263</p>--}}
+{{--                    <span>burires@contact.com</span>--}}
                     <div class="social_icon">
-                        <a href="https://preview.colorlib.com/theme/buri/index.html#" class="single_social_icon"><i
-                                class="fab fa-facebook-square"></i></a>
-                        <a href="https://preview.colorlib.com/theme/buri/index.html#" class="single_social_icon"><i
-                                class="fab fa-instagram"></i></a>
+{{--                        <a href="https://preview.colorlib.com/theme/buri/index.html#" class="single_social_icon"><i--}}
+{{--                                class="fab fa-facebook-square"></i></a>--}}
+{{--                        <a href="https://preview.colorlib.com/theme/buri/index.html#" class="single_social_icon"><i--}}
+{{--                                class="fab fa-instagram"></i></a>--}}
+                        <a href="https://vk.com/club74506872" class="single_social_icon"><i class="fab fa-vk fa-2x"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-sm-6 col-md-2 col-lg-3">
                 <div class="single-footer-widget footer_2">
-                    <h4>Quick links</h4>
+                    <h4>Карта сайта</h4>
                     <div class="contact_info">
                         <ul>
-                            <li><a href="{{ route('home') }}">Home</a></li>
-                            <li><a href="{{ route('about') }}">About</a></li>
-                            <li><a href="{{ route('menu') }}"> Menu</a></li>
-                            <li><a href="{{ route('single_blog') }}">Single Blog</a></li>
-                            <li><a href="{{ route('blog') }}">Blog</a></li>
-                            <li><a href="{{ route('elements') }}"> Elements</a></li>
-                            <li><a href="{{ route('food_menu') }}">Menu Food</a></li>
+                            <li><a href="{{ route('home') }}">Главная</a></li>
+                            <li><a href="{{ route('about') }}">О ресторане</a></li>
+{{--                            <li><a href="{{ route('menu') }}"> Меню</a></li>--}}
+{{--                            <li><a href="{{ route('single_blog') }}">Single Blog</a></li>--}}
+                            <li><a href="{{ route('contact') }}">Контакты</a></li>
+                            <li><a href="{{ route('elements') }}"> Галерея</a></li>
+                            <li><a href="{{ route('food_menu') }}">Меню</a></li>
                         </ul>
                     </div>
                 </div>
@@ -163,15 +161,7 @@
         <div class="copyright_part_text">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p class="footer-text m-0">
-
-                        Copyright ©
-                        <script>document.write(new Date().getFullYear());</script>
-                        2022 All rights reserved | This template is made with <i class="ti-heart"
-                                                                                 aria-hidden="true"></i> by <a
-                            href="https://colorlib.com/" target="_blank">Colorlib</a>
-
-                    </p>
+                    <p class="footer-text m-0">Все права защищены ©  {{ date("Y") }}</p>
                 </div>
             </div>
         </div>

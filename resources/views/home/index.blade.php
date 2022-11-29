@@ -121,6 +121,15 @@
         </div>
     </section>
 
+{{--    --}}
+{{--                                @foreach($slider as $image)--}}
+{{--                            <div class="owl-item " style="width: 334.333px; margin-right: 20px;">--}}
+{{--                                <div class="client_review_single">--}}
+{{--                                        <img class="d-block w-100" src="{{ asset("uploads/".$image->path)}}" style="width:100%;"  alt="{{$image->title}}">--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                                @endforeach--}}
+
 
     <section class="review_part section_padding">
         <div class="container">
@@ -287,14 +296,14 @@
                             <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span>
                             </button>
                         </div>
-                        <div class="owl-dots">
-                            <button role="button" class="owl-dot"><span></span></button>
-                            <button role="button" class="owl-dot"><span></span></button>
-                            <button role="button" class="owl-dot"><span></span></button>
-                            <button role="button" class="owl-dot"><span></span></button>
-                            <button role="button" class="owl-dot active"><span></span></button>
-                            <button role="button" class="owl-dot"><span></span></button>
-                        </div>
+{{--                        <div class="owl-dots">--}}
+{{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+{{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+{{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+{{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+{{--                            <button role="button" class="owl-dot active"><span></span></button>--}}
+{{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
             </div>
@@ -327,3 +336,4 @@
         </div>
     </section>
 @endsection
+

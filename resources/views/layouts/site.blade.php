@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Buri HTML5 Bootstrap Template by Colorlib</title>
+    <title>Ресторан 1001 ночь</title>
     <link rel="icon" href="../images/favicon.png" />
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -56,24 +56,27 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('food_menu') }}">Меню</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="./blog.html" id="navbarDropdown" role="button"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('blog') }}">Blog</a>
-                                    <a class="dropdown-item" href="{{ route('single_blog') }}">Single blog</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="{{ route('blog') }}" id="navbarDropdown_1"
-                                   role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    pages
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                                    <a class="dropdown-item" href="{{ route('elements') }}">Elements</a>
-                                </div>
+{{--                            <li class="nav-item dropdown">--}}
+{{--                                <a class="nav-link dropdown-toggle" href="./blog.html" id="navbarDropdown" role="button"--}}
+{{--                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                                    Blog--}}
+{{--                                </a>--}}
+{{--                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">--}}
+{{--                                    <a class="dropdown-item" href="{{ route('blog') }}">Blog</a>--}}
+{{--                                    <a class="dropdown-item" href="{{ route('single_blog') }}">Single blog</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <li class="nav-item dropdown">--}}
+{{--                                <a class="nav-link dropdown-toggle" href="{{ route('blog') }}" id="navbarDropdown_1"--}}
+{{--                                   role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                                    Галерея--}}
+{{--                                </a>--}}
+{{--                                <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">--}}
+{{--                                    <a class="dropdown-item" href="{{ route('elements') }}">Elements</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('elements') }}">Галерея</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('contact') }}">Контакты</a>
@@ -81,8 +84,11 @@
                         </ul>
                     </div>
                     <div class="social_icon d-none d-lg-block">
-                        <a href="./index.html#" class="single_social_icon"><i class="fab fa-facebook-square"></i></a>
-                        <a href="./index.html#" class="single_social_icon"><i class="fab fa-instagram"></i></a>
+{{--                        <a href="./index.html#" class="single_social_icon"><i class="fab fa-facebook-square"></i></a>--}}
+                        <a href="https://vk.com/club74506872" class="single_social_icon"><i class="fab fa-vk fa-2x"></i></a>
+                        <i class="fa fa-vk" aria-hidden="true"></i>
+                        <i aria-hidden="true" class="fa fa-vk fa-2x"></i>
+{{--                        <a href="./index.html#" class="single_social_icon"><i class="fab fa-instagram"></i></a>--}}
                     </div>
                 </nav>
             </div>
@@ -90,7 +96,7 @@
     </div>
 </header>
 <div id="app">
-    <main class="py-4">
+    <main class="py-4--">
         @yield('content')
     </main>
 </div>

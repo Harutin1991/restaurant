@@ -37,7 +37,9 @@ class HomeController extends Controller
 	public function about()
     {
         //return view('home');
-        return view('home.about');
+        $aboutInfo = AboutUs::first();
+        $contactInfo = ContactUs::first();
+        return view('home.about',compact('aboutInfo','contactInfo'));
     }
     public function blog()
     {
@@ -46,7 +48,8 @@ class HomeController extends Controller
     }
     public function contact()
     {
-        return view('home.contact');
+        $contactInfo = ContactUs::first();
+        return view('home.contact',compact('contactInfo'));
     }
     public function elements()
     {
@@ -55,8 +58,8 @@ class HomeController extends Controller
     }
     public function foodMenu()
     {
-        //return view('home');
-        return view('home.food_menu');
+        $products = Product::all();
+        return view('home.food_menu',compact('products'));
     }
     public function menu()
     {

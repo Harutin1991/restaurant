@@ -493,22 +493,22 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-home"></i></span>
                         <div class="media-body">
-                            <h3>Buttonwood, California.</h3>
-                            <p>Rosemead, CA 91770</p>
+                            <h3>{{ $contactInfo->country }}</h3>
+                            <p>{{ $contactInfo->factory_name }}</p>
                         </div>
                     </div>
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                         <div class="media-body">
-                            <h3>00 (440) 9865 562</h3>
-                            <p>Mon to Fri 9am to 6pm</p>
+                            <h3>{{ $contactInfo->telephone_number }}</h3>
+                            <p>{{ $contactInfo->fax_number }}</p>
                         </div>
                     </div>
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-email"></i></span>
                         <div class="media-body">
-                            <h3>support@colorlib.com</h3>
-                            <p>Send us your query anytime!</p>
+                            <h3>{{ $contactInfo->po_box }}</h3>
+                            <p>Отправьте нам свой запрос в любое время!</p>
                         </div>
                     </div>
                 </div>

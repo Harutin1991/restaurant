@@ -8,9 +8,9 @@
                 <div class="col-lg-7">
                     <div class="banner_text">
                         <div class="banner_text_iner">
-                            <h5>Expensive but the best</h5>
-                            <h1>Modern restaurant in center of the city</h1>
-                            <a href="./index.html#" class="btn_1">book a table</a>
+                            <h5>Дорогой, но лучший</h5>
+                            <h1>Восточный ресторан в центре города</h1>
+                            <a href="{{ route('contact') }}" class="btn_1">Забронировать</a>
                         </div>
                     </div>
                 </div>
@@ -29,8 +29,8 @@
                                     <h5>{{ __('home.aboutUs') }}</h5>
                                     <h2>{{ $aboutInfo->title }}</h2>
                                     <p>{{ $aboutInfo->short_description }}</p>
-                                    <p>{{ $aboutInfo->description }}</p>
-                                    <a href="{{ $aboutInfo->link }}" class="btn_3">{{ __('home.learnMore') }}</a>
+                                    <p>{{ mb_strimwidth($aboutInfo->description, 0, 406, "...") }}</p>
+                                    <a href="{{ route('about') }}" class="btn_3">{{ __('home.learnMore') }}</a>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -61,7 +61,7 @@
                             <div class="col-sm-6 col-lg-6">
                                 <?php $count = 0;?>
                                 @foreach($products as $product)
-                                
+
                                     @if($count <= 2)
                                 <div class="single_food_item media">
                                     <img src='{{ asset("uploads/".$product->logo)}}'
@@ -309,18 +309,17 @@
                     <div class="contact_part_iner">
                         <h3>{{ __('home.contactUs') }}</h3>
                         <div class="single_contact_part">
-                            <h5>address</h5>
+                            <h5>{{ __('home.address') }}</h5>
                             <p>{{ $contactInfo->country }} {{ $contactInfo->factory_name }}</p>
                         </div>
                         <div class="single_contact_part">
-                            <h5>WE ARE OPEN</h5>
-                            <p>Mon - Fri (9.00-19.00)</p>
-                            <p>Sat - Sun (9.00-19.00)</p>
+                            <h5>{{ __('home.weareopen') }}</h5>
+                            <p>{{ $contactInfo->fax_number }}</p>
                         </div>
                         <div class="single_contact_part">
-                            <h5>RESERVATION</h5>
-                            <p>+880 367 251 167</p>
-                            <span>barires@contact.com</span>
+                            <h5>{{ __('home.reservation') }}</h5>
+                            <p>{{ $contactInfo->telephone_number }}</p>
+                            <span>{{ $contactInfo->po_box }}</span>
                         </div>
                     </div>
                 </div>

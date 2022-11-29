@@ -52,8 +52,8 @@
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
                                 <select name="show" id="show" class="form-control">
-                                    <option value="0" @if($data->show == 0) selected @endif>Don`t Show</option>
-                                    <option value="1" @if($data->show == 1) selected @endif>Show</option>
+                                    <option value="0" @if($data->show == 0) selected @endif>Не избранное</option>
+                                    <option value="1" @if($data->show == 1) selected @endif>Избранное</option>
                                 </select>
                             </div>
 
@@ -71,7 +71,7 @@
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
                                 <input type="text" class="form-control" id="price"
-                                       placeholder="Price" name="price" value="{{old('price')}}" required>
+                                       placeholder="Price" name="price" value="{{$data->price}}" required>
                             </div>
                             <div class="">
                                 <div id="product-lists-container" class="form-inline">

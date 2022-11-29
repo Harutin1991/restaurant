@@ -8,8 +8,8 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item">
-                            <p>home. elements</p>
-                            <h2>elements</h2>
+{{--                            <p>home. elements</p>--}}
+                            <h2>Галерея</h2>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
         <div class="col-md-12">
             <div class="white-box">
                 <h3 class="box-title">{{$title}}</h3>
-                <a href="{{$route."/create"}}" class="btn btn-success m-b-30"><i class="fas fa-plus"></i> Add New {{ $title }}</a>
+                <a href="{{$route."/create"}}" class="btn btn-success m-b-30"><i class="fas fa-plus"></i> Добавить {{ $title }}</a>
 
                 {{--table--}}
                 <div class="table-responsive">
@@ -14,12 +14,12 @@
                         <thead>
                         <tr>
                             <th>#</th>
-                            <th>Image</th>
-                            <th>Title</th>
-                            <th>Category</th>
-                            <th>Show Status</th>
-                            <th>Price</th>
-                            <th style="width:110px !important">Options</th>
+                            <th>Фото</th>
+                            <th>Заголовок</th>
+                            <th>Категория</th>
+                            <th>Статус</th>
+                            <th>Цена</th>
+                            <th style="width:110px !important">Опции</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -34,17 +34,17 @@
                                 <td>{{$val->show == 1 ? "Show" : "Don`t Show"}}</td>
                                 <td>{{$val->price}}</td>
                                 <td>
-                                    <a href="{{$route."/".$val->id."/specification"}}" data-toggle="tooltip"
-                                       data-placement="top" title="Specification"
-                                       class="btn btn-success btn-circle tooltip-success">
-                                        <i class="fas fas fa-plus"></i>
-                                    </a>
+{{--                                    <a href="{{$route."/".$val->id."/specification"}}" data-toggle="tooltip"--}}
+{{--                                       data-placement="top" title="Specification"--}}
+{{--                                       class="btn btn-success btn-circle tooltip-success">--}}
+{{--                                        <i class="fas fas fa-plus"></i>--}}
+{{--                                    </a>--}}
 
-                                    <a href="{{$route."/".$val->id."/featured"}}" data-toggle="tooltip"
-                                       data-placement="top" title="Featured Product"
-                                       class="btn btn-primary btn-circle tooltip-primary">
-                                        <i class="fas fa-toggle-on"></i>
-                                    </a>
+{{--                                    <a href="{{$route."/".$val->id."/featured"}}" data-toggle="tooltip"--}}
+{{--                                       data-placement="top" title="Featured Product"--}}
+{{--                                       class="btn btn-primary btn-circle tooltip-primary">--}}
+{{--                                        <i class="fas fa-toggle-on"></i>--}}
+{{--                                    </a>--}}
 
                                     {{--<a href="{{$route."/".$val->id}}" data-toggle="tooltip"
                                        data-placement="top" title="Show"

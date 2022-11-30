@@ -103,10 +103,7 @@ class AboutUsController extends Controller
     {
         $request->validate([
             'title' => 'required|max:191',
-            'text1' => 'required|string',
-            'text2' => 'required|string',
-            'text3' => 'required|string',
-            'path' => 'image'
+            'text1' => 'required|string'
         ]);
 
         $overview = Overview::find($id);
@@ -233,8 +230,7 @@ class AboutUsController extends Controller
         $request->validate([
             'title' => 'required|max:191',
             'description' => 'string',
-            'link' => 'string|max:191',
-            'path' => 'required|image'
+            'link' => 'string|max:191'
         ]);
 
         DB::beginTransaction();

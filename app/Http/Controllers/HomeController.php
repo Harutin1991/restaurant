@@ -43,7 +43,8 @@ class HomeController extends Controller
         //return view('home');
         $aboutInfo = AboutUs::first();
         $contactInfo = ContactUs::first();
-        return view('home.about',compact('aboutInfo','contactInfo'));
+        $overview = Overview::all();
+        return view('home.about',compact('aboutInfo','contactInfo','overview'));
     }
     public function blog()
     {

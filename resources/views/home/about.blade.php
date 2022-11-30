@@ -81,144 +81,30 @@
                         <div class="owl-stage-outer">
                             <div class="owl-stage"
                                  style="transition: all 0.25s ease 0s; width: 4252px; transform: translate3d(-2125px, 0px, 0px);">
-                                <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Невероятно вкусный пирог с бараниной и лимонный (как бы пирог
-                                                из детства , так готовила мама ) Всем рекомендую
+                                @foreach($overview as $image)
+                                    <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
+                                        <div class="client_review_single">
+                                            <div class="client_review_text">
+                                                <p>
+                                                    {{$image->text1}}
 
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_1.png.pagespeed.ic.Abc2kQ5Pxi.webp" alt="#"
-                                                     data-pagespeed-url-hash="729397122">
-                                                <h4>Alexandr</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
+                                                </p>
+                                                <div class="client_review_img">
+                                                    <img src="{{ asset("uploads/".$image->path)}}" alt="#"
+                                                         data-pagespeed-url-hash="729397122">
+                                                    <h4>{{$image->title}}</h4>
+                                                    <div class="review_icon">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Во-первых это невероятно вкусно, качественно и с душой.
-                                                Во-вторых, классные сочетания, каждый раз глаза разбегаются,
-                                                хочется попробовать все.
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_2.png.pagespeed.ic.Nh5FwpSR-l.webp" alt="#"
-                                                     data-pagespeed-url-hash="1023897043"
-                                                <h4>Andrey</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Интересный интерьер, вкусная кухня и самое крутое
-                                                адекватные цены Отделочное спасибо официанту
-                                                он сделал наш вечер
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_3.png.pagespeed.ic.i3mDTqRcqw.webp" alt="#"
-                                                     data-pagespeed-url-hash="1318396964">
-                                                <h4>Artur</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Сейчас в такую сырую погоду хочется поужинать в уютном
-                                                заведении. Приятная атмосфера и интерьер с расслабляющей
-                                                музыкой.
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_1.png.pagespeed.ic.Abc2kQ5Pxi.webp" alt="#"
-                                                     data-pagespeed-url-hash="729397122">
-                                                <h4>Slava</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Кухня потрясающая, коктейли на уровне. Берёшь что угодно
-                                                из меню и оно вкусно). Хорошее заведение. Рекомендую !
-                                                все понравилось.
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_2.png.pagespeed.ic.Nh5FwpSR-l.webp" alt="#"
-                                                     data-pagespeed-url-hash="1023897043">
-                                                <h4>Vladimir</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 334.333px; margin-right: 20px;">
-                                    <div class="client_review_single">
-                                        <div class="client_review_text">
-                                            <p>
-                                                Уже не первый раз в этом месте, периодически ходим сюда с
-                                                друзьями. Здесь безумно вкусно и очень приветливый
-                                                персонал.
-                                            </p>
-                                            <div class="client_review_img">
-                                                <img src="./images/xclient_3.png.pagespeed.ic.i3mDTqRcqw.webp" alt="#"
-                                                     data-pagespeed-url-hash="1318396964">
-                                                <h4>Dmitriy</h4>
-                                                <div class="review_icon">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
 
                             </div>
                         </div>
@@ -228,14 +114,14 @@
                             <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span>
                             </button>
                         </div>
-                        <div class="owl-dots">
-                            <button role="button" class="owl-dot"><span></span></button>
-                            <button role="button" class="owl-dot"><span></span></button>
-                            <button role="button" class="owl-dot"><span></span></button>
-                            <button role="button" class="owl-dot"><span></span></button>
-                            <button role="button" class="owl-dot active"><span></span></button>
-                            <button role="button" class="owl-dot"><span></span></button>
-                        </div>
+                        {{--                        <div class="owl-dots">--}}
+                        {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+                        {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+                        {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+                        {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+                        {{--                            <button role="button" class="owl-dot active"><span></span></button>--}}
+                        {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+                        {{--                        </div>--}}
                     </div>
                 </div>
             </div>

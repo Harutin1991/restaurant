@@ -5,7 +5,10 @@
         <div class="col-md-12">
             <div class="white-box">
                 <h3 class="box-title">{{$title}}</h3>
-                <a href="{{$route."/create"}}" class="btn btn-success m-b-30"><i class="fas fa-plus"></i> Добавить </a>
+
+                <a href="{{$route."/create"}}" class="btn btn-success m-b-30"><i class="fas fa-plus"></i> Добавить Мнение</a>
+
+
                 {{--table--}}
                 <div class="table-responsive">
                     <table id="datatable" class="display table table-hover table-striped" cellspacing="0"
@@ -13,11 +16,9 @@
                         <thead>
                         <tr>
                             <th>#</th>
-                            <th>Thumbnail</th>
-                            <th>Title</th>
-                            <th>Text 1</th>
-                            <th>Text 2</th>
-                            <th>Text 3</th>
+                            <th>фото</th>
+                            <th>Имя</th>
+                            <th>Текст</th>
                             <th>Options</th>
                         </tr>
                         </thead>
@@ -30,8 +31,6 @@
                                 </td>
                                 <td>{{$val->title}}</td>
                                 <td>{{$val->text1}}</td>
-                                <td>{{$val->text2}}</td>
-                                <td>{{$val->text3}}</td>
 
                                 <td>
                                     <a href="{{$route."/".$val->id."/edit"}}" data-toggle="tooltip"
@@ -73,6 +72,3 @@
         $('#datatable').DataTable();
     </script>
 @endpush
-
-
-

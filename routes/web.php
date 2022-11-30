@@ -51,8 +51,10 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::resource('/about-us', AboutUsController::class);
 
     Route::GET('/overview', [AboutUsController::class, 'overview']);
+    Route::GET('overview/create', [AboutUsController::class, 'createOverview']);
     Route::GET('/overview/{id}/edit', [AboutUsController::class, 'overviewEdit']);
-    Route::PUT('/overview/{id}', [AboutUsController::class, 'overviewStore']);
+    Route::PUT('/overview/{id}', [AboutUsController::class, 'overviewEditStore']);
+    Route::POST('/overview', [AboutUsController::class, 'overviewStore']);
 
     Route::GET('/history', [AboutUsController::class, 'history']);
     Route::GET('/history/{id}/edit', [AboutUsController::class, 'historyEdit']);

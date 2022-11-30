@@ -49,7 +49,7 @@ class AboutUsController extends Controller
         $title = self::TITLE_OVERVIEW;
         $route = self::OVERVIEW_ROUTE;
         $action = "Create";
-        return view(self::ABOUT_FOLDER . '.create', compact('title', 'route', 'action'));
+        return view(self::OVERVIEW_FOLDER . '.create', compact('title', 'route', 'action'));
     }
 
     public function overview()
@@ -69,7 +69,37 @@ class AboutUsController extends Controller
         return view(self::OVERVIEW_FOLDER . '.edit', compact('title', 'route', 'action', 'data'));
     }
 
-    public function overviewStore(Request $request, $id)
+    /**
+     * Store a newly created resource in storage.
+     * @param \Illuminate\Http\Request $request
+     * @return \Illuminate\Http\Response
+     */
+    public function overviewStore(Request $request)
+    {
+        DB::beginTransaction();
+        $request->validate([
+            'title' => 'required|max:191',
+            'text1' => 'required|string',
+            'path' => 'image'
+        ]);
+
+        $overview = new Overview();
+        $overview->title = $request->title;
+        $overview->text1 = $request->text1;
+        $path = '';
+        if ($request->path) {
+            $path = Storage::disk('public')->putFile('overview', new File($request->path));
+        }
+
+        $overview->path = $path;
+        $overview->save();
+
+        DB::commit();
+
+        return redirect(self::OVERVIEW_ROUTE);
+    }
+
+    public function overviewEditStore(Request $request, $id)
     {
         $request->validate([
             'title' => 'required|max:191',

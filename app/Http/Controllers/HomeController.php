@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Admin\ContactUs;
 use App\Admin\Product;
 use App\Admin\Slider;
+use App\Admin\Overview;
 use App;
 
 class HomeController extends Controller
@@ -33,7 +34,8 @@ class HomeController extends Controller
         $aboutInfo = AboutUs::first();
         $products = Product::all()->take(6);
         $slider = Slider::all();
-        return view('home.index', compact('aboutInfo', 'contactInfo', 'products','slider'));
+        $overview = Overview::all();
+        return view('home.index', compact('aboutInfo', 'contactInfo', 'products','slider','overview'));
     }
 
 	public function about()

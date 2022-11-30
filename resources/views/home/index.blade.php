@@ -149,18 +149,18 @@
                         <div class="owl-stage-outer">
                             <div class="owl-stage"
                                  style="transition: all 0.25s ease 0s; width: 4252px; transform: translate3d(-2125px, 0px, 0px);">
+                                @foreach($overview as $image)
                                 <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
                                     <div class="client_review_single">
                                         <div class="client_review_text">
                                             <p>
-                                                Невероятно вкусный пирог с бараниной и лимонный (как бы пирог
-                                                из детства , так готовила мама ) Всем рекомендую
+                                                {{$image->text1}}
 
                                             </p>
                                             <div class="client_review_img">
-                                                <img src="./images/xclient_1.png.pagespeed.ic.Abc2kQ5Pxi.webp" alt="#"
+                                                <img src="{{ asset("uploads/".$image->path)}}" alt="#"
                                                      data-pagespeed-url-hash="729397122">
-                                                <h4>Alexandr</h4>
+                                                <h4>{{$image->title}}</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -172,6 +172,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                @endforeach
                                 <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
                                     <div class="client_review_single">
                                         <div class="client_review_text">

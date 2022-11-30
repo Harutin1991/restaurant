@@ -74,8 +74,6 @@ class AboutUsController extends Controller
         $overview = Overview::find($id);
         $overview->title = $request->title;
         $overview->text1 = $request->text1;
-        $overview->text2 = $request->text2;
-        $overview->text3 = $request->text3;
 
         if ($request->path) {
             Storage::disk('public')->delete($overview->path);

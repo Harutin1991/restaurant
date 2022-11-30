@@ -7,39 +7,37 @@
                 <div class="panel-heading">{{$title}}</div>
                 <div class="panel-wrapper collapse in" aria-expanded="true">
                     <div class="panel-body">
-                        <form method="post" action="{{ $route."/".$data->id }}" enctype="multipart/form-data">
+                        <form method="post" action="{{ $route }}" enctype="multipart/form-data">
                             @csrf
-                            @method("PUT")
 
                             <div class="form-group">
-                                <label for="title">Title <strong class="text-danger"> &#42; </strong> </label>
+                                <label for="title">Title<strong class="text-danger"> &#42; </strong> </label>
                                 @error('title')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
                                 <input type="text" class="form-control" id="title"
-                                       placeholder="Title" name="title" value="{{$data->title}}" required>
+                                       placeholder="Заголовок" name="title" value="{{old('title')}}" required>
                             </div>
 
                             <div class="form-group">
-                                <label for="description">Text 1 <strong class="text-danger">
+                                <label for="description">Description <strong class="text-danger">
                                         &#42; </strong></label>
                                 @error('text1')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
                                 <textarea name="text1" id="text1" cols="30" rows="10" class="form-control"
-                                          style="resize: none;" required>{{$data->text1}}</textarea>
+                                          style="resize: none;" required></textarea>
                             </div>
 
                             <div class="form-group">
-                                <label for="logo">Upload Image </label>
+                                <label for="logo">Загрузить картину<strong class="text-danger"> &#42; </strong></label>
                                 @error('path')
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
-                                <input type="file" id="path" name="path" class="dropify" data-default-file='{{asset("uploads/$data->path")}}'/>
+                                <input type="file" id="path" name="path" required class="dropify"/>
                             </div>
 
-                            <button type="submit" class="btn btn-success waves-effect waves-light col-md-12">
-                                Save {{$title}}
+                            <button type="submit" class="btn btn-success waves-effect waves-light col-md-12">Сохранить {{$title}}
                             </button>
                         </form>
                     </div>
@@ -49,22 +47,18 @@
     </div>
 @endsection
 
-@push('header')
-    <!-- Dropify plugins css -->
-    <link rel="stylesheet" href="{{asset('assets/plugins/dropify/dist/css/dropify.min.css')}}">
-    <!-- jQuery file upload -->
-    <script src="{{asset('assets/plugins/dropify/dist/js/dropify.min.js')}}"></script>
-
-    <!--This is a datatable style -->
-    <link href="{{asset('assets/plugins/datatables/media/css/dataTables.bootstrap.css')}}" rel="stylesheet"
-          type="text/css"/>
-@endpush
-
 @push('footer')
-
     <script>
-        $('.dropify').dropify();
-
-        $('#datatable').DataTable();
+        $(document).ready(function () {
+            $("#telephone_number").on('input', function () {
+                regex = /^([0-9\s\-\+\(\)]*)$/;
+                if (!$(this).val().match(regex)) {
+                    $('.phone_err').empty().append(`<strong>Please enter correct telephone number.</strong>`).show();
+                }
+                else{
+                    $('.phone_err').empty().hide();
+                }
+            })
+        })
     </script>
 @endpush

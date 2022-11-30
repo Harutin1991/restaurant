@@ -58,19 +58,19 @@ class HomeController extends Controller
     }
     public function elements()
     {
-        //return view('home');
-        return view('home.elements');
+        $gallery = App\Admin\Media::all();
+        return view('home.elements',compact('gallery'));
     }
     public function foodMenu()
     {
         $products = Product::all();
         return view('home.food_menu',compact('products'));
     }
-    public function menu()
-    {
-        //return view('home');
-        return view('home.menu');
-    }
+//    public function menu()
+//    {
+//        //return view('home');
+//        return view('home.menu');
+//    }
     public function singleBlog()
     {
         //return view('home');

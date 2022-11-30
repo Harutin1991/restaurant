@@ -44,6 +44,14 @@ class AboutUsController extends Controller
     }
 
     /******************** OVERVIEW START ****************/
+    public function createOverview()
+    {
+        $title = self::TITLE_OVERVIEW;
+        $route = self::OVERVIEW_ROUTE;
+        $action = "Create";
+        return view(self::ABOUT_FOLDER . '.create', compact('title', 'route', 'action'));
+    }
+
     public function overview()
     {
         $data = Overview::all();

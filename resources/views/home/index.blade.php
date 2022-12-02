@@ -45,7 +45,34 @@
         </div>
     </section>
 
-
+    <div class="container">
+        <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0"  class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                @foreach($slider as $image)
+                    <div class="carousel-item ">
+                        <img src="{{ asset("uploads/".$image->path)}}" class="d-block w-100" alt="...">
+                    </div>
+                @endforeach
+            </div>
+            <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                <div class="banner-icons">
+                    <span class="fas fa-angle-left"></span>
+                </div>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                <div class="banner-icons">
+                    <span class="fas fa-angle-right"></span>
+                </div>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
     <section class="food_menu">
         <div class="container">
             <div class="row justify-content-center">
@@ -129,6 +156,8 @@
 {{--                                </div>--}}
 {{--                            </div>--}}
 {{--                                @endforeach--}}
+
+
 
 
     <section class="review_part section_padding">
@@ -225,3 +254,6 @@
     </section>
 @endsection
 
+<script>
+
+</script>

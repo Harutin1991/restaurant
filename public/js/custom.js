@@ -11,7 +11,9 @@
     preloader: false,
     fixedContentPos: false
   });
-
+    $(document).ready(function () {
+        $('#mycarousel').find('.carousel-item ').first().addClass('active');
+    });
   if (document.getElementById('default-select')) {
     $('select').niceSelect();
   }

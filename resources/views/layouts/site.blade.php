@@ -12,6 +12,8 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -23,6 +25,7 @@
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/themify-icons.css">
+
 </head>
 <body>
 
@@ -181,5 +184,7 @@
 <script src="./js/swiper.min.js"></script>
 <script src="./js/custom.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>

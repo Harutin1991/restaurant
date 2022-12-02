@@ -19,8 +19,8 @@
     <div class="lightbox-gallery">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">Lightbox Gallery</h2>
-                <p class="text-center">Find the lightbox gallery for your project. click on any image to open gallary</p>
+                <h2 class="text-center">Меню</h2>
+                <p class="text-center">Важнейшее место в меню занимает мясо, приготовленное на открытом огне с добавлением восточных пряностей. </p>
             </div>
             <div class="row photos">
                 @foreach($gallery as $image)

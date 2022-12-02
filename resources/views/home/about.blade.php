@@ -45,88 +45,88 @@
     </section>
 
 
-    <section class="intro_video_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro_video_iner text-center">
-                        <div class="intro_video_icon">
-                            <a id="play-video_1" class="video-play-button popup-youtube"
-                               href="https://www.youtube.com/watch?v=pBFQdxA-apI">
-                                <span class="ti-control-play"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--    <section class="intro_video_bg">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-lg-12">--}}
+{{--                    <div class="intro_video_iner text-center">--}}
+{{--                        <div class="intro_video_icon">--}}
+{{--                            <a id="play-video_1" class="video-play-button popup-youtube"--}}
+{{--                               href="https://www.youtube.com/watch?v=pBFQdxA-apI">--}}
+{{--                                <span class="ti-control-play"></span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
 
-    <section class="review_part section_padding">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-5">
-                    <div class="section_tittle">
-                        <p>Отзывы</p>
-                        <h2>Что они сказали</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-11">
-                    <div class="client_review_part owl-carousel owl-loaded owl-drag">
+{{--    <section class="review_part section_padding">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row justify-content-center">--}}
+{{--                <div class="col-xl-5">--}}
+{{--                    <div class="section_tittle">--}}
+{{--                        <p>Отзывы</p>--}}
+{{--                        <h2>Что они сказали</h2>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-lg-11">--}}
+{{--                    <div class="client_review_part owl-carousel owl-loaded owl-drag">--}}
 
 
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage"
-                                 style="transition: all 0.25s ease 0s; width: 4252px; transform: translate3d(-2125px, 0px, 0px);">
-                                @foreach($overview as $image)
-                                    <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
-                                        <div class="client_review_single">
-                                            <div class="client_review_text">
-                                                <p>
-                                                    {{$image->text1}}
+{{--                        <div class="owl-stage-outer">--}}
+{{--                            <div class="owl-stage"--}}
+{{--                                 style="transition: all 0.25s ease 0s; width: 4252px; transform: translate3d(-2125px, 0px, 0px);">--}}
+{{--                                @foreach($overview as $image)--}}
+{{--                                    <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">--}}
+{{--                                        <div class="client_review_single">--}}
+{{--                                            <div class="client_review_text">--}}
+{{--                                                <p>--}}
+{{--                                                    {{$image->text1}}--}}
 
-                                                </p>
-                                                <div class="client_review_img">
-                                                    <img src="{{ asset("uploads/".$image->path)}}" alt="#"
-                                                         data-pagespeed-url-hash="729397122">
-                                                    <h4>{{$image->title}}</h4>
-                                                    <div class="review_icon">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                @endforeach
+{{--                                                </p>--}}
+{{--                                                <div class="client_review_img">--}}
+{{--                                                    <img src="{{ asset("uploads/".$image->path)}}" alt="#"--}}
+{{--                                                         data-pagespeed-url-hash="729397122">--}}
+{{--                                                    <h4>{{$image->title}}</h4>--}}
+{{--                                                    <div class="review_icon">--}}
+{{--                                                        <i class="fas fa-star"></i>--}}
+{{--                                                        <i class="fas fa-star"></i>--}}
+{{--                                                        <i class="fas fa-star"></i>--}}
+{{--                                                        <i class="fas fa-star"></i>--}}
+{{--                                                        <i class="fas fa-star"></i>--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                @endforeach--}}
 
-                            </div>
-                        </div>
-                        <div class="owl-nav disabled">
-                            <button type="button" role="presentation" class="owl-prev"><span
-                                    aria-label="Previous">‹</span></button>
-                            <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span>
-                            </button>
-                        </div>
-                        {{--                        <div class="owl-dots">--}}
-                        {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
-                        {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
-                        {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
-                        {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
-                        {{--                            <button role="button" class="owl-dot active"><span></span></button>--}}
-                        {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
-                        {{--                        </div>--}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="owl-nav disabled">--}}
+{{--                            <button type="button" role="presentation" class="owl-prev"><span--}}
+{{--                                    aria-label="Previous">‹</span></button>--}}
+{{--                            <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span>--}}
+{{--                            </button>--}}
+{{--                        </div>--}}
+{{--                        --}}{{--                        <div class="owl-dots">--}}
+{{--                        --}}{{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+{{--                        --}}{{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+{{--                        --}}{{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+{{--                        --}}{{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+{{--                        --}}{{--                            <button role="button" class="owl-dot active"><span></span></button>--}}
+{{--                        --}}{{--                            <button role="button" class="owl-dot"><span></span></button>--}}
+{{--                        --}}{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
 
     <section class="contact_part section_padding">

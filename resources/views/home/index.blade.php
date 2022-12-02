@@ -47,11 +47,11 @@
 
     <div class="container">
         <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
-            <ol class="carousel-indicators">
-                <li data-target="#mycarousel" data-slide-to="0"  class="active"></li>
-                <li data-target="#mycarousel" data-slide-to="1"></li>
-                <li data-target="#mycarousel" data-slide-to="2"></li>
-            </ol>
+{{--            <ol class="carousel-indicators">--}}
+{{--                <li data-target="#mycarousel" data-slide-to="0"  class="active"></li>--}}
+{{--                <li data-target="#mycarousel" data-slide-to="1"></li>--}}
+{{--                <li data-target="#mycarousel" data-slide-to="2"></li>--}}
+{{--            </ol>--}}
             <div class="carousel-inner">
                 @foreach($slider as $image)
                     <div class="carousel-item ">

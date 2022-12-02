@@ -2326,7 +2326,7 @@ ul {
   }
   /* line 123, /Applications/MAMP/htdocs/palash/cl/july 2019/july/194 Restaurant/194 Restaurant html/sass/_menu.scss */
   .navbar-light .navbar-toggler {
-    border-color: transparent;
+    border-color: white;
     position: absolute;
     right: 0;
   }

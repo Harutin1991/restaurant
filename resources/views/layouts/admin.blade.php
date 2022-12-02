@@ -117,7 +117,7 @@
                     </a>
                     <ul class="nav nav-second-level collapse">
                         <li><a href="/admin/slider" class="waves-effect">
-                                <span class="hide-menu">Слайдеры</span></a>
+                                <span class="hide-menu">Слайдер</span></a>
                         </li>
                         <li><a href="/admin/about-us" class="waves-effect">
                                 <span class="hide-menu">О Ресторане</span></a>
@@ -140,7 +140,7 @@
 {{--                </li>--}}
 
                 <li><a href="/admin/media-center" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/mediacenter.svg') }}">
-                        <span class="hide-menu">МЕДИА ЦЕНТР</span></a>
+                        <span class="hide-menu">Галерея</span></a>
                 </li>
 
                 <li><a href="/admin/social" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/sociallinks.svg') }}">

@@ -64,7 +64,7 @@
 
                                     @if($count <= 2)
                                 <div class="single_food_item media">
-                                    <img src='{{ asset("uploads/".$product->logo)}}'
+                                    <img src='{{ asset("uploads/".$product->logo)}}' style="width:170px !important;height:165px !important"
                                             alt="{{$product->title}}"
                                             class="img-responsive" >
                                     <div class="media-body align-self-center">
@@ -82,7 +82,7 @@
                                 @foreach($products as $product)
                                     @if($count > 2)
                                         <div class="single_food_item media">
-                                            <img src='{{ asset("uploads/".$product->logo)}}'
+                                            <img src='{{ asset("uploads/".$product->logo)}}' style="width:170px !important;height:165px !important"
                                             alt="{{$product->title}}"
                                             class="img-responsive" >
                                             <div class="media-body align-self-center">
@@ -158,8 +158,10 @@
 
                                             </p>
                                             <div class="client_review_img">
+                                                <div>
                                                 <img src="{{ asset("uploads/".$image->path)}}" alt="#"
                                                      data-pagespeed-url-hash="729397122">
+                                                </div>
                                                 <h4>{{$image->title}}</h4>
                                                 <div class="review_icon">
                                                     <i class="fas fa-star"></i>

@@ -151,7 +151,10 @@
                     <a href="/admin/contact-us" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/contactus.svg') }}">
                         <span class="hide-menu">Контакты</span></a>
                 </li>
-
+                <li>
+                    <a href="/admin/contact-us-data" class="waves-effect"><img class="menu-icon" src="{{ URL::asset('assets/icons/mailsettings.svg') }}">
+                        <span class="hide-menu">Письмо</span></a>
+                </li>
             </ul>
         </div>
     </div>

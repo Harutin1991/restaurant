@@ -107,8 +107,9 @@
                 </div>
                 <div class="col-lg-8">
                     <form class="form-contact contact_form"
-                          action="https://preview.colorlib.com/theme/buri/contact_process.php" method="post"
+                          action="/site/contactus" method="post"
                           id="contactForm" novalidate="novalidate">
+                        @csrf
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">

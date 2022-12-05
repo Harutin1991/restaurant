@@ -12,6 +12,7 @@ use App\Http\Controllers\Admin\AboutUsController;
 use App\Http\Controllers\Admin\ContactUsController;
 use App\Http\Controllers\Admin\MediaCenterController;
 use App\Http\Controllers\Admin\SocialController;
+use App\Http\Controllers\Admin\ContactUsDataController;
 
 
 
@@ -39,6 +40,7 @@ Route::get('/elements', [App\Http\Controllers\HomeController::class, 'elements']
 Route::get('/food_menu', [App\Http\Controllers\HomeController::class, 'foodMenu'])->name('food_menu');
 Route::get('/menu', [App\Http\Controllers\HomeController::class, 'menu'])->name('menu');
 Route::get('/single_blog', [App\Http\Controllers\HomeController::class, 'singleBlog'])->name('single_blog');
+Route::POST('/site/contactus', [App\Http\Controllers\HomeController::class, 'storeContactUsData'])->name('contact-sent');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
@@ -46,6 +48,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::resource('/', AdminController::class);
 
     Route::resource('/contact-us', ContactUsController::class);
+    Route::resource('/contact-us-data', ContactUsDataController::class);
     Route::resource('/categories', CategoryController::class);
     //Route::resource('/product-tabs', ProductTabsController::class);
     Route::resource('/about-us', AboutUsController::class);

@@ -71,7 +71,7 @@
                                 <p class="invalid-feedback text-danger" role="alert"><strong>{{ $message }}</strong></p>
                                 @enderror
                                 <input type="text" class="form-control" id="price"
-                                       placeholder="Price" name="price" value="{{$data->price}}" >
+                                       placeholder="Price" name="price" value="{{$data->price}}" required>
                             </div>
                             <div class="">
                                 <div id="product-lists-container" class="form-inline">

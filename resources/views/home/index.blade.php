@@ -254,3 +254,6 @@
     </section>
 @endsection
 
+<script>
+
+</script>

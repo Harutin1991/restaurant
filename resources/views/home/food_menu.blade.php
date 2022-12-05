@@ -1,14 +1,17 @@
 @extends('layouts.site')
 
 @section('content')
-
+<?php 
+$productsCount = count($products);
+$leftCount = ceil($productsCount / 2);
+$rightCount = $productsCount - $leftCount;
+?>
     <section class="breadcrumb breadcrumb_bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item">
-{{--                            <p>Home. Menu</p>--}}
                             <h2>Меню</h2>
                         </div>
                     </div>
@@ -34,7 +37,7 @@
                                 <?php $count = 0;?>
                                 @foreach($products as $product)
 
-                                    @if($count <= 2)
+                                    @if($count <= $leftCount)
                                         <div class="single_food_item media">
                                             <img src='{{ asset("uploads/".$product->logo)}}'  style="width:210px !important;height:165px !important"
                                                  alt="{{$product->title}}"
@@ -52,7 +55,7 @@
                             <div class="col-sm-6 col-lg-6">
                                 <?php $count = 0;?>
                                 @foreach($products as $product)
-                                    @if($count > 2)
+                                    @if($count > $leftCount && $count <= $productsCount)
                                         <div class="single_food_item media">
                                             <img src='{{ asset("uploads/".$product->logo)}}' style="width:210px !important;height:165px !important"
                                                  alt="{{$product->title}}"

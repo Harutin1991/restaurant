@@ -32,7 +32,7 @@ class HomeController extends Controller
     {
         $contactInfo = ContactUs::first();
         $aboutInfo = AboutUs::first();
-        $products = Product::all()->take(6);
+        $products = Product::all()->where('show', 'Избранное');
         $slider = Slider::all();
         $overview = Overview::all();
         return view('home.index', compact('aboutInfo', 'contactInfo', 'products','slider','overview'));

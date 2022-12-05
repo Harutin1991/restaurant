@@ -8,7 +8,7 @@
                 <div class="col-lg-7">
                     <div class="banner_text">
                         <div class="banner_text_iner">
-                            <h5>Дорогой, но лучший</h5>
+                            <h5>Ресторан 1001 Ночь</h5>
                             <h1>Восточный ресторан в центре города</h1>
                             <a href="{{ route('contact') }}" class="btn_1">Забронировать</a>
                         </div>
@@ -91,7 +91,7 @@
 
                                     @if($count <= 2)
                                 <div class="single_food_item media">
-                                    <img src='{{ asset("uploads/".$product->logo)}}' style="width:170px !important;height:165px !important"
+                                    <img src='{{ asset("uploads/".$product->logo)}}' style="width:210px !important;height:165px !important"
                                             alt="{{$product->title}}"
                                             class="img-responsive" >
                                     <div class="media-body align-self-center">
@@ -109,7 +109,7 @@
                                 @foreach($products as $product)
                                     @if($count > 2)
                                         <div class="single_food_item media">
-                                            <img src='{{ asset("uploads/".$product->logo)}}' style="width:170px !important;height:165px !important"
+                                            <img src='{{ asset("uploads/".$product->logo)}}' style="width:210px !important;height:165px !important"
                                             alt="{{$product->title}}"
                                             class="img-responsive" >
                                             <div class="media-body align-self-center">
@@ -245,7 +245,7 @@
                         <div class="single_contact_part">
                             <h5>{{ __('home.reservation') }}</h5>
                             <p>{{ $contactInfo->telephone_number }}</p>
-                            <span>{{ $contactInfo->po_box }}</span>
+                            <p>{{ $contactInfo->po_box }}</p>
                         </div>
                     </div>
                 </div>

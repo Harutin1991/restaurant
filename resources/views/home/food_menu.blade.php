@@ -36,7 +36,7 @@
 
                                     @if($count <= 2)
                                         <div class="single_food_item media">
-                                            <img src='{{ asset("uploads/".$product->logo)}}'  style="width:170px !important;height:165px !important"
+                                            <img src='{{ asset("uploads/".$product->logo)}}'  style="width:210px !important;height:165px !important"
                                                  alt="{{$product->title}}"
                                                  class="img-responsive" >
                                             <div class="media-body align-self-center">
@@ -54,7 +54,7 @@
                                 @foreach($products as $product)
                                     @if($count > 2)
                                         <div class="single_food_item media">
-                                            <img src='{{ asset("uploads/".$product->logo)}}'
+                                            <img src='{{ asset("uploads/".$product->logo)}}' style="width:210px !important;height:165px !important"
                                                  alt="{{$product->title}}"
                                                  class="img-responsive" >
                                             <div class="media-body align-self-center">

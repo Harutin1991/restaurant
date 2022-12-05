@@ -86,9 +86,9 @@
                         </ul>
                     </div>
                     <div class="social_icon d-none d-lg-block">
-{{--                        <a href="./index.html#" class="single_social_icon"><i class="fab fa-facebook-square"></i></a>--}}
-                        <a href="https://vk.com/club74506872" class="single_social_icon"><i class="fab fa-vk fa-2x"></i></a>
-{{--                        <a href="./index.html#" class="single_social_icon"><i class="fab fa-instagram"></i></a>--}}
+                        <a target="blank" href="https://eda.yandex.ru/restaurant/tysyacha_i_odna_noch_millionnaya_21" class="single_social_icon"><i class="fab fa-yandex-international fa-2x"></i></a>
+                        <a target="blank" href="https://instagram.com/1001night.restaurant?igshid=YmMyMTA2M2Y=" class="single_social_icon"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a target="blank" href="https://vk.com/club74506872" class="single_social_icon"><i class="fab fa-vk fa-2x"></i></a>
                     </div>
                 </nav>
             </div>
@@ -114,11 +114,9 @@
 {{--                    <p>+880 253 356 263</p>--}}
 {{--                    <span>burires@contact.com</span>--}}
                     <div class="social_icon">
-{{--                        <a href="https://preview.colorlib.com/theme/buri/index.html#" class="single_social_icon"><i--}}
-{{--                                class="fab fa-facebook-square"></i></a>--}}
-{{--                        <a href="https://preview.colorlib.com/theme/buri/index.html#" class="single_social_icon"><i--}}
-{{--                                class="fab fa-instagram"></i></a>--}}
-                        <a href="https://vk.com/club74506872" class="single_social_icon"><i class="fab fa-vk fa-2x"></i></a>
+                        <a target="blank" href="https://eda.yandex.ru/restaurant/tysyacha_i_odna_noch_millionnaya_21" class="single_social_icon"><i class="fab fa-yandex-international fa-2x"></i></a>
+                        <a target="blank" href="https://instagram.com/1001night.restaurant?igshid=YmMyMTA2M2Y=" class="single_social_icon"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a target="blank" href="https://vk.com/club74506872" class="single_social_icon"><i class="fab fa-vk fa-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -138,28 +136,28 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-sm-6 col-md-4 col-lg-3">
-                <div class="single-footer-widget footer_3">
-                    <h4>Subscribe newsletter</h4>
-                    <form action="https://preview.colorlib.com/theme/buri/index.html#">
-                        <div class="form-group">
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Email Address"
-                                       onfocus="this.placeholder = &#39;&#39;"
-                                       onblur="this.placeholder = &#39;Email Address&#39;">
-                                <div class="input-group-append">
-                                    <button class="btn" type="button">
-                                        <i class="fas fa-paper-plane"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                    <p>
-                        Subscribe newsletter to get all updates about discount and offers.
-                    </p>
-                </div>
-            </div>
+{{--            <div class="col-xl-3 col-sm-6 col-md-4 col-lg-3">--}}
+{{--                <div class="single-footer-widget footer_3">--}}
+{{--                    <h4>Subscribe newsletter</h4>--}}
+{{--                    <form action="https://preview.colorlib.com/theme/buri/index.html#">--}}
+{{--                        <div class="form-group">--}}
+{{--                            <div class="input-group mb-3">--}}
+{{--                                <input type="text" class="form-control" placeholder="Email Address"--}}
+{{--                                       onfocus="this.placeholder = &#39;&#39;"--}}
+{{--                                       onblur="this.placeholder = &#39;Email Address&#39;">--}}
+{{--                                <div class="input-group-append">--}}
+{{--                                    <button class="btn" type="button">--}}
+{{--                                        <i class="fas fa-paper-plane"></i>--}}
+{{--                                    </button>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </form>--}}
+{{--                    <p>--}}
+{{--                        Subscribe newsletter to get all updates about discount and offers.--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
         <div class="copyright_part_text">
             <div class="row">

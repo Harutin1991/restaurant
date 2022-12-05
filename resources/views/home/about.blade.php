@@ -146,7 +146,7 @@
                         <div class="single_contact_part">
                             <h5>{{ __('home.reservation') }}</h5>
                             <p>{{ $contactInfo->telephone_number }}</p>
-                            <span>{{ $contactInfo->po_box }}</span>
+                            <p>{{ $contactInfo->po_box }}</p>
                         </div>
                     </div>
                 </div>

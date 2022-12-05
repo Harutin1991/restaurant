@@ -7,16 +7,16 @@ use App\helpers\FileUploadHelper;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\File;
 use Illuminate\Http\Request;
-use App\Admin\MailContent;
+use App\Admin\ContactUsFormData;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 
-class MailSettingsController extends Controller
+class ContactUsDataController extends Controller
 {
 
-    const FOLDER = "admin.mailsettings";
-    const TITLE = "Mail Settings";
-    const ROUTE = "/admin/mail-settings";
+    const FOLDER = "admin.contactusdata";
+    const TITLE = "Письмо";
+    const ROUTE = "/admin/contact-us-data";
 
     /**
      * Display a listing of the resource.
@@ -24,7 +24,7 @@ class MailSettingsController extends Controller
      */
     public function index()
     {
-        $data = MailContent::all();
+        $data = ContactUsFormData::all();
         $title = self::TITLE;
         $route = self::ROUTE;
         return view(self::FOLDER . '.index', compact('title', 'route', 'data'));
@@ -56,10 +56,11 @@ class MailSettingsController extends Controller
 
         DB::beginTransaction();
 
-        $media = new MailContent;
+        $media = new ContactUsFormData;
+        $media->name = $request->name;
         $media->subject = $request->subject;
         $media->message = $request->message;
-        $media->type = $request->type;
+        $media->email = $request->email;
         $media->save();
         DB::commit();
 
@@ -73,7 +74,7 @@ class MailSettingsController extends Controller
      */
     public function show($id)
     {
-        $data = MailContent::find($id);
+        $data = ContactUsFormData::find($id);
         $title = self::TITLE;
         $route = self::ROUTE;
         $action = "Show";
@@ -109,10 +110,11 @@ class MailSettingsController extends Controller
 
         DB::beginTransaction();
 
-        $data = MailContent::find($id);
+        $data = ContactUsFormData::find($id);
+        $data->name = $request->name;
         $data->subject = $request->subject;
         $data->message = $request->message;
-        $data->type = $request->type;
+        $data->email = $request->email;
         $data->save();
 
         DB::commit();
@@ -127,7 +129,7 @@ class MailSettingsController extends Controller
      */
     public function destroy($id)
     {
-        MailContent::destroy($id);
+        ContactUsFormData::destroy($id);
         return redirect(self::ROUTE);
     }
 }

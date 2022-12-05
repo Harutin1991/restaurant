@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Admin\AboutUs;
 use Illuminate\Http\Request;
 use App\Admin\ContactUs;
+use App\Admin\ContactUsFormData;
 use App\Admin\Product;
 use App\Admin\Slider;
 use App\Admin\Overview;
@@ -56,6 +57,24 @@ class HomeController extends Controller
         $contactInfo = ContactUs::first();
         return view('home.contact',compact('contactInfo'));
     }
+    
+    public function storeContactUsData(Request $request)
+    {
+        $request->validate([
+            'subject' => 'required',
+            'message' => 'required'
+        ]);
+
+        $media = new ContactUsFormData;
+        $media->name = $request->name;
+        $media->subject = $request->subject;
+        $media->message = $request->message;
+        $media->email = $request->email;
+        $media->save();
+
+        return redirect('contact');
+    }
+    
     public function elements()
     {
         $gallery = App\Admin\Media::all();

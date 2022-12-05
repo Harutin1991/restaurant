@@ -4,8 +4,8 @@ namespace App\Admin;
 
 use Illuminate\Database\Eloquent\Model;
 
-class HealthSafety extends Model
+class ContactUsFormData extends Model
 {
-    protected $table = "health_safety";
+    protected $table = "contact_us_form_data";
     protected $guarded = [];
 }

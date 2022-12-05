@@ -254,26 +254,3 @@
     </section>
 @endsection
 
-<script>
-
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause: true,
-            dots: false,
-            margin: 5,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 4
-                }
-            }
-        })
-
-</script>

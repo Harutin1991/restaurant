@@ -244,8 +244,8 @@
                         </div>
                         <div class="single_contact_part">
                             <h5>{{ __('home.reservation') }}</h5>
-                            <p>{{ $contactInfo->telephone_number }}</p>
-                            <p>{{ $contactInfo->po_box }}</p>
+                            <p><a href="{{ $contactInfo->telephone_number }}">{{ $contactInfo->telephone_number }}</a></p>
+                            <p><a href = "mailto: {{ $contactInfo->po_box }}">{{ $contactInfo->po_box }}</a></p>
                         </div>
                     </div>
                 </div>

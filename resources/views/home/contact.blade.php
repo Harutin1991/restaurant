@@ -161,7 +161,7 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                         <div class="media-body">
-                            <h3><a href="{{ $contactInfo->telephone_number }}">{{ $contactInfo->telephone_number }}</a></h3>
+                            <h3><a href="tel: {{ $contactInfo->telephone_number }}">{{ $contactInfo->telephone_number }}</a></h3>
                             <p>{{ $contactInfo->fax_number }}</p>
                         </div>
                     </div>

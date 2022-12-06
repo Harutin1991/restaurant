@@ -179,7 +179,7 @@
                             <div class="owl-stage"
                                  style="transition: all 0.25s ease 0s; width: 4252px; transform: translate3d(-2125px, 0px, 0px);">
                                 @foreach($overview as $image)
-                                <div class="owl-item cloned" style="width: 334.333px; margin-right: 20px;">
+                                <div class="owl-item " style="width: 334.333px; margin-right: 20px;">
                                     <div class="client_review_single">
                                         <div class="client_review_text">
                                             <p>
@@ -207,12 +207,12 @@
 
                             </div>
                         </div>
-                        <div class="owl-nav disabled">
-                            <button type="button" role="presentation" class="owl-prev"><span
-                                    aria-label="Previous">‹</span></button>
-                            <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span>
-                            </button>
-                        </div>
+{{--                        <div class="owl-nav disabled">--}}
+{{--                            <button type="button" role="presentation" class="owl-prev"><span--}}
+{{--                                    aria-label="Previous">‹</span></button>--}}
+{{--                            <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span>--}}
+{{--                            </button>--}}
+{{--                        </div>--}}
 {{--                        <div class="owl-dots">--}}
 {{--                            <button role="button" class="owl-dot"><span></span></button>--}}
 {{--                            <button role="button" class="owl-dot"><span></span></button>--}}

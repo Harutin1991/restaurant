@@ -264,4 +264,9 @@ class AboutUsController extends Controller
         AboutUs::destroy($id);
         return  redirect(self::ROUTE);
     }
+    public function destroyOverview($id)
+    {
+        Overview::destroy($id);
+        return  redirect(self::OVERVIEW_ROUTE);
+    }
 }

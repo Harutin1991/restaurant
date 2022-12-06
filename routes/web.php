@@ -58,6 +58,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::GET('/overview/{id}/edit', [AboutUsController::class, 'overviewEdit']);
     Route::PUT('/overview/{id}', [AboutUsController::class, 'overviewEditStore']);
     Route::POST('/overview', [AboutUsController::class, 'overviewStore']);
+    Route::DELETE('/overview/{id}/delete', [AboutUsController::class,'destroyOverview']);
 
     Route::GET('/history', [AboutUsController::class, 'history']);
     Route::GET('/history/{id}/edit', [AboutUsController::class, 'historyEdit']);

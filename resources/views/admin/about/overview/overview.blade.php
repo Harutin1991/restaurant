@@ -38,7 +38,7 @@
                                         <i class="fas fa-edit"></i>
                                     </a>
 
-                                    <form style="display: inline-block" action="{{ $route."/".$val->id }}"
+                                    <form style="display: inline-block" action="{{ $route."/".$val->id }}/delete"
                                           method="post" id="work-for-form">
                                         @csrf
                                         @method("DELETE")

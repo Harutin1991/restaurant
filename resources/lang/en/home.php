@@ -6,7 +6,7 @@ return [
     'weareopen' => 'We are open',
     'reservation' => 'Reservation',
     'learnMore' => 'Learn More',
-    'popularMenu' => 'Popular Menu',
+    'popularMenu' => 'Our Menu',
     'deliciousMenu' => 'Меню вкусной еды',
     'aboutUs' => 'About Us'
 ];

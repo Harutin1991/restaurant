@@ -7,7 +7,7 @@ return [
     'weareopen' => 'Мы открыты',
     'reservation' => 'Бронирование',
     'learnMore' => 'Узнать больше',
-    'popularMenu' => 'Популярное меню',
+    'popularMenu' => 'Наш меню',
     'deliciousMenu' => 'Вкусная еда',
     'aboutUs' => 'О нас'
 

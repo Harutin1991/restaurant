@@ -1,7 +1,7 @@
 @extends('layouts.site')
 
 @section('content')
-<?php 
+<?php
 $productsCount = count($products);
 $leftCount = ceil($productsCount / 2);
 $rightCount = $productsCount - $leftCount;
@@ -45,7 +45,7 @@ $rightCount = $productsCount - $leftCount;
                                             <div class="media-body align-self-center">
                                                 <h3>{{$product->title}}</h3>
                                                 <p>{{$product->uses_desc}}</p>
-                                                <h5>{{$product->price}}</h5>
+{{--                                                <h5>{{$product->price}}</h5>--}}
                                             </div>
                                         </div>
                                     @endif
@@ -63,7 +63,7 @@ $rightCount = $productsCount - $leftCount;
                                             <div class="media-body align-self-center">
                                                 <h3>{{$product->title}}</h3>
                                                 <p>{{$product->uses_desc}}</p>
-                                                <h5>{{$product->price}}</h5>
+{{--                                                <h5>{{$product->price}}</h5>--}}
                                             </div>
                                         </div>
                                     @endif

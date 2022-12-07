@@ -57,7 +57,7 @@ class HomeController extends Controller
         $contactInfo = ContactUs::first();
         return view('home.contact',compact('contactInfo'));
     }
-    
+
     public function storeContactUsData(Request $request)
     {
         $request->validate([
@@ -74,7 +74,7 @@ class HomeController extends Controller
 
         return redirect('contact');
     }
-    
+
     public function elements()
     {
         $gallery = App\Admin\Media::all();

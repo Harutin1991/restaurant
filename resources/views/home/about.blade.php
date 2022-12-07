@@ -27,8 +27,9 @@
                                 <div class="about_text">
 {{--                                    <h5>{{ __('home.aboutUs') }}</h5>--}}
                                     <h2>{{ $aboutInfo->title }}</h2>
-                                    <p>{{ $aboutInfo->short_description }}</p>
-                                    <p>{{ $aboutInfo->description }}</p>
+{{--                                    <p>{{ $aboutInfo->short_description }}</p>--}}
+                                    @php echo $aboutInfo->description;
+                                    @endphp
 {{--                                    <a href="{{ route('about') }}" class="btn_3">{{ __('home.learnMore') }}</a>--}}
                                 </div>
                             </div>

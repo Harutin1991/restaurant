@@ -2829,7 +2829,7 @@ ul {
 /**************** food_menu css start ****************/
 /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/july/194 Restaurant/194 Restaurant html/sass/_food_menu.scss */
 .food_menu {
-  padding: 140px 0px 90px;
+  padding: 140px 0px 0px;
 }
 
 @media (max-width: 576px) {
@@ -2856,7 +2856,7 @@ ul {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/july/194 Restaurant/194 Restaurant html/sass/_food_menu.scss */
   .food_menu {
-    padding: 70px 0px 40px;
+    padding: 70px 0px 0px;
   }
 }
 

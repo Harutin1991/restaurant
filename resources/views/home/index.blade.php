@@ -10,7 +10,7 @@
                         <div class="banner_text_iner">
                             <h5>Ресторан 1001 Ночь</h5>
                             <h1>Восточный ресторан в центре города</h1>
-                            <a href="{{ route('food_menu') }}" class="btn_1">Меню</a>
+{{--                            <a href="{{ route('food_menu') }}" class="btn_1">Меню</a>--}}
                         </div>
                     </div>
                 </div>

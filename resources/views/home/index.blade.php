@@ -80,8 +80,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="section_tittle">
-                        <p>{{ __('home.popularMenu') }}</p>
-                        <h2>{{ __('home.deliciousMenu') }}</h2>
+                        <p>{{ __('home.deliciousMenu') }}</p>
+                        <h2>Популярное меню</h2>
                     </div>
                 </div>
                 <div class="col-lg-12">

@@ -29,7 +29,9 @@
                                     <h5>{{ __('home.aboutUs') }}</h5>
                                     <h2>{{ $aboutInfo->title }}</h2>
                                     <p>{{ $aboutInfo->short_description }}</p>
-                                    <p>{{ mb_strimwidth($aboutInfo->description, 0, 406, "...") }}</p>
+                                    @php echo mb_strimwidth($aboutInfo->description, 0, 406, "...")
+                                    @endphp
+{{--                                    <p>{{ mb_strimwidth($aboutInfo->description, 0, 406, "...") }}</p>--}}
                                     <a href="{{ route('about') }}" class="btn_3">{{ __('home.learnMore') }}</a>
                                 </div>
                             </div>

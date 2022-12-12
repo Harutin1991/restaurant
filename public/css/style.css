@@ -2414,9 +2414,9 @@ ul {
 
 /* line 35, /Applications/MAMP/htdocs/palash/cl/july 2019/july/194 Restaurant/194 Restaurant html/sass/_banner.scss */
 .banner_part .banner_text h5 {
-  font-size: 18px;
+  font-size: 21px;
   text-transform: capitalize;
-  color: #d6ad86;
+  color: #fff;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
 }

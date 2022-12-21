@@ -33,10 +33,29 @@ $rightCount = $productsCount - $leftCount;
                 <div class="col-lg-12">
                     <div class="single-member">
                         <div class="row">
+                            <div class="col-sm-6 col-lg-12">
+                            @foreach($categories as $key=>$products)
+                            <h2>{{$key}}</h2>
+                                    @foreach($products as $product)
+                                        <div class="single_food_item media">
+                                            <img src='{{ asset("uploads/".$product->logo)}}'  style="width:210px !important;height:165px !important"
+                                                 alt="{{$product->title}}"
+                                                 class="img-responsive" >
+                                            <div class="media-body align-self-center">
+                                                <h3>{{$product->title}}</h3>
+                                                <p>{{$product->uses_desc}}</p>
+{{--                                                <h5>{{$product->price}}</h5>--}}
+                                            </div>
+                                        </div>
+                                @endforeach
+                            @endforeach
+                            </div>
+                            
+                            
+                            
                             <div class="col-sm-6 col-lg-6">
                                 <?php $count = 0;?>
                                 @foreach($products as $product)
-
                                     @if($count <= $leftCount)
                                         <div class="single_food_item media">
                                             <img src='{{ asset("uploads/".$product->logo)}}'  style="width:210px !important;height:165px !important"

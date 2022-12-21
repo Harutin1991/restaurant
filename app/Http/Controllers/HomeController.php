@@ -83,7 +83,12 @@ class HomeController extends Controller
     public function foodMenu()
     {
         $products = Product::all();
-        return view('home.food_menu',compact('products'));
+        $categories = [];
+        foreach($products as $product) {
+            $categories[$product->category->name][] = $product;
+        }
+
+        return view('home.food_menu',compact('products', 'categories'));
     }
 //    public function menu()
 //    {

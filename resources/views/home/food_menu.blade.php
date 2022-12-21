@@ -35,7 +35,9 @@ $rightCount = $productsCount - $leftCount;
                         <div class="row">
                             <div class="col-sm-6 col-lg-12">
                             @foreach($categories as $key=>$products)
+                                    <div class="section_tittle">
                             <h2>{{$key}}</h2>
+                                    </div>
                                     @foreach($products as $product)
                                         <div class="single_food_item media">
                                             <img src='{{ asset("uploads/".$product->logo)}}'  style="width:210px !important;height:165px !important"
@@ -50,9 +52,9 @@ $rightCount = $productsCount - $leftCount;
                                 @endforeach
                             @endforeach
                             </div>
-                            
-                            
-                            
+
+
+
                             <div class="col-sm-6 col-lg-6">
                                 <?php $count = 0;?>
                                 @foreach($products as $product)

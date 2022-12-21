@@ -36,7 +36,7 @@ $rightCount = $productsCount - $leftCount;
                             <div class="col-sm-6 col-lg-12">
                             @foreach($categories as $key=>$products)
                                     <div class="section_tittle">
-                                         <h2>{{$key}}</h2>
+                                         <p>{{$key}}</p>
                                     </div>
                             </div>
                                     <div class="col-sm-6 col-lg-6">

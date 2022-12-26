@@ -58,6 +58,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('food_menu') }}">Меню</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="blank" href="https://eda.yandex.ru/restaurant/tysyacha_i_odna_noch_millionnaya_21">Доставка</a>
+                            </li>
 {{--                            <li class="nav-item dropdown">--}}
 {{--                                <a class="nav-link dropdown-toggle" href="./blog.html" id="navbarDropdown" role="button"--}}
 {{--                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
@@ -128,7 +131,7 @@
                             <li><a href="{{ route('home') }}">Главная</a></li>
                             <li><a href="{{ route('about') }}">О ресторане</a></li>
 {{--                            <li><a href="{{ route('menu') }}"> Меню</a></li>--}}
-{{--                            <li><a href="{{ route('single_blog') }}">Single Blog</a></li>--}}
+                            <li><a href="https://eda.yandex.ru/restaurant/tysyacha_i_odna_noch_millionnaya_21">Доставка</a></li>
                             <li><a href="{{ route('contact') }}">Контакты</a></li>
                             <li><a href="{{ route('elements') }}"> Галерея</a></li>
                             <li><a href="{{ route('food_menu') }}">Меню</a></li>
